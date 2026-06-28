@@ -28,8 +28,8 @@ button{cursor:pointer;color:inherit}
 .logo{width:56px;height:56px;flex:0 0 56px;border-radius:19px;display:grid;place-items:center;background:linear-gradient(135deg,#1f0e0c,#e2554a 58%,#ffc7b6);color:#1a0907;font-weight:1000;font-size:21px;letter-spacing:-1.6px;box-shadow:0 0 36px rgba(226,85,74,.25)}
 h1{margin:0;font-size:clamp(32px,5.2vw,58px);line-height:.94;letter-spacing:-2.2px}
 .sub{margin:8px 0 0;color:var(--muted);font-weight:650}
-.dock{position:sticky;top:0;z-index:20;padding:10px 0;background:linear-gradient(180deg,rgba(7,5,6,.98),rgba(7,5,6,.86));backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.07)}
-.searchbar{display:grid;grid-template-columns:1fr auto auto auto;gap:10px;align-items:center}
+.dock{position:sticky;top:0;z-index:20;padding:8px 0;background:linear-gradient(180deg,rgba(7,5,6,.98),rgba(7,5,6,.86));backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.07)}
+.searchbar{display:grid;grid-template-columns:1.4fr 1fr auto auto;gap:8px;align-items:center}
 .search{position:relative}
 .search input{width:100%;height:48px;padding:0 44px 0 16px;border:1px solid var(--line);border-radius:17px;outline:none;color:var(--text);background:rgba(255,255,255,.055)}
 .search input:focus{border-color:rgba(226,85,74,.55);box-shadow:0 0 0 4px rgba(226,85,74,.1)}
@@ -47,7 +47,7 @@ h1{margin:0;font-size:clamp(32px,5.2vw,58px);line-height:.94;letter-spacing:-2.2
 .lvlreset{height:42px;border:1px solid var(--line);border-radius:13px;background:rgba(255,255,255,.06);font-weight:800;padding:0 14px;white-space:nowrap}
 .chips{display:flex;gap:8px;overflow:auto;padding:10px 1px 2px;scrollbar-width:thin;scrollbar-color:rgba(226,85,74,.55) transparent}
 .chips::-webkit-scrollbar{height:5px}.chips::-webkit-scrollbar-thumb{background:rgba(226,85,74,.55);border-radius:99px}
-.chip{white-space:nowrap;border:1px solid var(--line);background:rgba(255,255,255,.052);border-radius:999px;padding:9px 12px;font-weight:850;font-size:13px;color:var(--muted)}
+.chip{white-space:nowrap;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.09);border-radius:999px;padding:9px 12px;font-weight:850;font-size:13px;color:#e7dcd8}
 .chip.active{color:#1a0907;background:linear-gradient(135deg,var(--red),var(--red2));border-color:transparent}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0}
 .stat{border:1px solid var(--line);border-radius:18px;padding:14px;background:rgba(255,255,255,.045);box-shadow:0 12px 34px rgba(0,0,0,.2)}
@@ -57,7 +57,7 @@ h1{margin:0;font-size:clamp(32px,5.2vw,58px);line-height:.94;letter-spacing:-2.2
 .card{position:relative;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(180deg,rgba(255,255,255,.068),rgba(255,255,255,.032));box-shadow:var(--shadow);padding:14px;min-width:0;transition:.18s ease;overflow:hidden}
 .card:hover{transform:translateY(-2px);border-color:rgba(226,85,74,.35)}
 .card:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--red),transparent);opacity:.75}
-.top{display:grid;grid-template-columns:72px 1fr;gap:12px;align-items:center}
+.top{display:grid;grid-template-columns:72px 1fr;gap:16px;align-items:center}
 .icon{width:72px;height:72px;border-radius:17px;background:#0c0707;border:1px solid rgba(255,255,255,.12);display:grid;place-items:center;overflow:hidden;box-shadow:inset 0 0 16px rgba(0,0,0,.5)}
 .icon img{width:88%;height:88%;object-fit:contain;image-rendering:pixelated;image-rendering:-moz-crisp-edges}
 .fallbackIcon{font-weight:1000;color:var(--red)}
@@ -67,17 +67,17 @@ h1{margin:0;font-size:clamp(32px,5.2vw,58px);line-height:.94;letter-spacing:-2.2
 .pill.red{color:#1a0907;background:linear-gradient(135deg,var(--red),var(--red2));border-color:transparent}
 .pill.undead{color:#cfe9ff;background:rgba(120,180,255,.16);border-color:rgba(150,195,255,.35)}
 .undeadbadge{position:absolute;top:12px;right:12px;font-size:10px;font-weight:900;letter-spacing:.4px;color:#cfe9ff;background:rgba(20,30,50,.75);border:1px solid rgba(150,195,255,.4);border-radius:999px;padding:5px 9px;z-index:2;text-transform:uppercase}
-.desc{margin:12px 0 12px;color:var(--muted);line-height:1.47;min-height:21px;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .info{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0}
+.info.info-single{grid-template-columns:1fr}
 .info div{border:1px solid rgba(255,255,255,.075);border-radius:14px;padding:9px;background:rgba(0,0,0,.16);min-width:0}
 .info small{display:block;color:var(--dim);font-weight:800;font-size:10px;text-transform:uppercase;letter-spacing:.4px}
 .info span{display:block;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:750;font-size:13px}
 .actions{display:flex;gap:8px;margin-top:12px}
-.btn{flex:1;border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.065);height:40px;font-weight:900}
-.btn.primary{color:#1a0907;background:linear-gradient(135deg,var(--red),var(--red2));border-color:transparent}
+.btn{border:1px solid var(--line);border-radius:15px;background:rgba(255,255,255,.065);height:40px;font-weight:900}
+.btn.primary{flex:1.6;color:#1a0907;background:linear-gradient(135deg,var(--red),var(--red2));border-color:transparent}
+.btn.ghost{flex:1;background:transparent;color:var(--muted);font-weight:800}
 .grid.list{grid-template-columns:1fr}
 .grid.list .card{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
-.grid.list .desc{min-height:0;margin-bottom:0}
 .grid.list .info{grid-template-columns:repeat(2,minmax(110px,1fr));margin:0}
 .empty{display:none;text-align:center;padding:34px 14px;border:1px dashed var(--line);border-radius:22px;color:var(--muted);background:rgba(255,255,255,.035)}
 .empty.show{display:block}
@@ -92,7 +92,7 @@ h1{margin:0;font-size:clamp(32px,5.2vw,58px);line-height:.94;letter-spacing:-2.2
 .detailText{white-space:pre-wrap;line-height:1.56;color:#ede1dc;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.07);border-radius:18px;padding:14px}
 .footer{color:var(--dim);font-weight:700;text-align:center;padding:0 0 28px}
 @media (max-width:920px){.grid{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:640px){.wrap{width:min(100% - 22px,1180px)}.hero{padding-top:14px}.logo{width:50px;height:50px;flex-basis:50px;border-radius:17px}.searchbar{grid-template-columns:1fr auto auto}.select{grid-column:1/-1;width:100%}.lvlpanel{grid-template-columns:1fr 1fr;grid-column:1/-1}.lvlreset{grid-column:1/-1}.stats{grid-template-columns:repeat(2,1fr);gap:8px;margin:12px 0}.stat{padding:11px}.stat b{font-size:20px}.grid{grid-template-columns:1fr;gap:12px;padding-top:4px}.grid.list .card{display:block}.grid.list .info{grid-template-columns:1fr 1fr;margin:10px 0}.chips{padding-bottom:5px}.card{border-radius:20px;padding:13px}.modal{padding:10px}.sheet{max-height:88vh;border-radius:22px;padding:14px}}
+@media (max-width:640px){.wrap{width:min(100% - 22px,1180px)}.hero{padding-top:14px}.logo{width:50px;height:50px;flex-basis:50px;border-radius:17px}.searchbar{grid-template-columns:1fr auto auto;gap:7px}.select{grid-column:1/-1;width:100%}.lvlpanel{grid-template-columns:1fr 1fr;grid-column:1/-1;margin-top:7px}.lvlreset{grid-column:1/-1}.stats{grid-template-columns:repeat(2,1fr);gap:8px;margin:12px 0}.stat{padding:11px}.stat b{font-size:20px}.grid{grid-template-columns:1fr;gap:12px;padding-top:4px}.grid.list .card{display:block}.grid.list .info{grid-template-columns:1fr 1fr;margin:10px 0}.chips{padding:7px 1px 2px}.card{border-radius:20px;padding:13px}.modal{padding:10px}.sheet{max-height:88vh;border-radius:22px;padding:14px}}
 </style>
 </head>
 <body>
@@ -210,7 +210,7 @@ function updateRegionOptions(){
 function filtered(){ return state.items.filter(it=>{ if(state.group !== 'all' && !(it.groups||[]).includes(state.group)) return false; if(state.region !== 'all' && !(it.regionNames||[]).includes(state.region)) return false; if(state.lvlMin !== null && it.level < state.lvlMin) return false; if(state.lvlMax !== null && it.level > state.lvlMax) return false; if(state.query && !it._hay.includes(state.query)) return false; return true; }); }
 function renderStats(list){ const total=state.items.length; const visible=list.length; const regionCount=[...new Set(state.items.flatMap(it=>it.regionNames||[]))].length; const undeadCount=state.items.filter(it=>it.formName==='Undead').length; els.stats.innerHTML = `<div class="stat"><b>${total}</b><span>Total monster</span></div><div class="stat"><b>${visible}</b><span>Hasil tampil</span></div><div class="stat"><b>${regionCount}</b><span>Region</span></div><div class="stat"><b>${undeadCount}</b><span>Undead</span></div>`; }
 function render(){ const list=filtered(); renderStats(list); els.count.textContent = `${list.length} monster ditemukan`; els.empty.classList.toggle('show', list.length===0); els.grid.className = 'grid' + (state.view==='list'?' list':''); els.grid.innerHTML = list.map(card).join(''); els.grid.querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>openModal(+b.dataset.open)); els.grid.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{ const it=state.items.find(x=>x.id===+b.dataset.copy); copyText(formatMonster(it)); toast('Copied'); }); }
-function card(it){ const img=safe(it.image); const isUndead = it.formName === 'Undead'; const regionsTxt = getRegions(it); const dropsTxt = getDrops(it); return `<article class="card">${isUndead?'<span class="undeadbadge">Undead</span>':''}<div><div class="top"><div class="icon">${img?`<img src="${esc(img)}" alt="${esc(it.name)}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'fallbackIcon',textContent:'LC'}))">`:`<div class="fallbackIcon">LC</div>`}</div><div class="title"><div class="name" title="${esc(it.name)}">${esc(it.name)}</div><div class="meta"><span class="pill red">Lv ${it.level}</span>${isUndead?'<span class="pill undead">Undead</span>':''}</div></div></div><p class="desc" title="${esc(regionsTxt)}">${esc(regionsTxt)}</p><div class="info"><div><small>Region</small><span title="${esc(regionsTxt)}">${esc(regionsTxt)}</span></div><div><small>Drop Item</small><span title="${esc(dropsTxt)}">${esc(dropsTxt)}</span></div></div></div><div class="actions"><button class="btn primary" data-open="${it.id}">Detail</button><button class="btn" data-copy="${it.id}">Copy</button></div></article>`; }
+function card(it){ const img=safe(it.image); const isUndead = it.formName === 'Undead'; const regionsTxt = getRegions(it); const dropsTxt = getDrops(it); const hasDrops = dropsTxt && dropsTxt !== '-'; return `<article class="card">${isUndead?'<span class="undeadbadge">Undead</span>':''}<div><div class="top"><div class="icon">${img?`<img src="${esc(img)}" alt="${esc(it.name)}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'fallbackIcon',textContent:'LC'}))">`:`<div class="fallbackIcon">LC</div>`}</div><div class="title"><div class="name" title="${esc(it.name)}">${esc(it.name)}</div><div class="meta"><span class="pill red">Lv ${it.level}</span>${isUndead?'<span class="pill undead">Undead</span>':''}</div></div></div><div class="info${hasDrops?'':' info-single'}"><div><small>Region</small><span title="${esc(regionsTxt)}">${esc(regionsTxt)}</span></div>${hasDrops?`<div><small>Drop Item</small><span title="${esc(dropsTxt)}">${esc(dropsTxt)}</span></div>`:''}</div></div><div class="actions"><button class="btn primary" data-open="${it.id}">Detail</button><button class="btn ghost" data-copy="${it.id}">Copy</button></div></article>`; }
 function openModal(id){ const it=state.items.find(x=>x.id===id); if(!it) return; state.selected=it; const img=safe(it.image); const isUndead = it.formName === 'Undead'; els.sheetTitle.innerHTML = `<div class="icon">${img?`<img src="${esc(img)}" alt="${esc(it.name)}" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'fallbackIcon',textContent:'LC'}))">`:`<div class="fallbackIcon">LC</div>`}</div><div><div class="name">${esc(it.name)}</div><div class="meta"><span class="pill red">Lv ${it.level}</span>${isUndead?'<span class="pill undead">Undead</span>':''}</div></div>`; els.detailText.textContent=formatMonster(it); els.modal.classList.add('show'); els.modal.setAttribute('aria-hidden','false'); }
 function closeModal(){ els.modal.classList.remove('show'); els.modal.setAttribute('aria-hidden','true'); state.selected=null; }
 function formatMonster(it){
