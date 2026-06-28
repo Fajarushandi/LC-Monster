@@ -57,9 +57,9 @@ h1{margin:0;font-size:clamp(32px,5.2vw,58px);line-height:.94;letter-spacing:-2.2
 .card{position:relative;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(180deg,rgba(255,255,255,.068),rgba(255,255,255,.032));box-shadow:var(--shadow);padding:14px;min-width:0;transition:.18s ease;overflow:hidden}
 .card:hover{transform:translateY(-2px);border-color:rgba(226,85,74,.35)}
 .card:before{content:"";position:absolute;inset:0 0 auto;height:3px;background:linear-gradient(90deg,var(--red),transparent);opacity:.75}
-.top{display:grid;grid-template-columns:54px 1fr;gap:12px;align-items:center}
-.icon{width:54px;height:54px;border-radius:17px;background:#0c0707;border:1px solid rgba(255,255,255,.12);display:grid;place-items:center;overflow:hidden;box-shadow:inset 0 0 16px rgba(0,0,0,.5)}
-.icon img{width:100%;height:100%;object-fit:contain;image-rendering:auto;padding:3px}
+.top{display:grid;grid-template-columns:72px 1fr;gap:12px;align-items:center}
+.icon{width:72px;height:72px;border-radius:17px;background:#0c0707;border:1px solid rgba(255,255,255,.12);display:grid;place-items:center;overflow:hidden;box-shadow:inset 0 0 16px rgba(0,0,0,.5)}
+.icon img{width:88%;height:88%;object-fit:contain;image-rendering:pixelated;image-rendering:-moz-crisp-edges}
 .fallbackIcon{font-weight:1000;color:var(--red)}
 .title{min-width:0}.name{font-size:18px;font-weight:950;letter-spacing:-.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
@@ -194,8 +194,8 @@ function initUI(){
   els.clearBtn.onclick=()=>{ els.q.value=''; state.query=''; els.searchBox.classList.remove('has-value'); els.q.focus(); render(); };
   els.regionFilter.onchange=()=>{ state.region=els.regionFilter.value; render(); };
   els.lvlToggle.onclick=()=>{ const showing=els.lvlPanel.classList.toggle('show'); els.lvlToggle.classList.toggle('active',showing); };
-  els.lvlMin.addEventListener('input',()=>{ const v=els.lvlMin.value; const n=+v; state.lvlMin = (v===''||isNaN(n))?null:Math.max(1,Math.min(95,n)); render(); });
-  els.lvlMax.addEventListener('input',()=>{ const v=els.lvlMax.value; const n=+v; state.lvlMax = (v===''||isNaN(n))?null:Math.max(1,Math.min(95,n)); render(); });
+  els.lvlMin.addEventListener('input',()=>{ const v=els.lvlMin.value; state.lvlMin = v===''?null:Math.max(1,Math.min(95,+v)); render(); });
+  els.lvlMax.addEventListener('input',()=>{ const v=els.lvlMax.value; state.lvlMax = v===''?null:Math.max(1,Math.min(95,+v)); render(); });
   els.lvlReset.onclick=()=>{ els.lvlMin.value=''; els.lvlMax.value=''; state.lvlMin=null; state.lvlMax=null; render(); };
   els.viewBtn.onclick=()=>{ state.view = state.view === 'grid' ? 'list' : 'grid'; try{localStorage.setItem('lc_monster_view',state.view);}catch(e){} els.viewBtn.textContent = state.view === 'list' ? '☰' : '▦'; render(); };
   els.closeModal.onclick=closeModal; els.modal.addEventListener('click',e=>{ if(e.target===els.modal) closeModal(); }); document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeModal(); });
