@@ -1,6 +1,6 @@
 // Naikkan nomor ini SETIAP kali kamu deploy update baru (termasuk kalau
 // nambah/edit monster di monsters-full.json atau EMBEDDED_MONSTERS).
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = `lc-monsterdb-${VERSION}`;
 
 const ASSETS = [
@@ -16,9 +16,19 @@ const ASSETS = [
 
 self.addEventListener('install', e => {
   e.waitUntil(
-    caches.open(CACHE)
-      .then(c => c.addAll(ASSETS))
-      .catch(err => console.error('SW install cache failed:', err))
+    caches.open(CACHE).then(c =>
+      // Pakai allSettled per-file, BUKAN addAll(), supaya 1 asset gagal
+      // (misal lupa upload salah satu file icon) tidak menggagalkan
+      // instalasi SW secara keseluruhan.
+      Promise.allSettled(
+        ASSETS.map(url =>
+          fetch(url).then(res => {
+            if (res.ok) return c.put(url, res);
+            console.warn('SW install: skip (status ' + res.status + ')', url);
+          }).catch(err => console.warn('SW install: skip (fetch error)', url, err))
+        )
+      )
+    )
   );
   self.skipWaiting();
 });
