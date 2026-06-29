@@ -18,6 +18,8 @@
   --parch:#f0ead6; --parch-dim:#9aa0b4; --parch-faint:#5c6378;
   --line:#252b3b;
   --r:14px;
+  --maxw:1320px;
+  --header-h:0px;
 }
 *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
 html,body{margin:0;padding:0;}
@@ -40,9 +42,11 @@ header.top{
   position:sticky; top:0; z-index:30;
   background:rgba(11,14,22,0.92);
   backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
   border-bottom:1px solid var(--line);
   padding:16px 16px 12px;
 }
+.headerInner{width:100%;}
 .brand{display:flex; align-items:center; gap:10px; margin-bottom:12px;}
 .brand .mark{
   width:34px; height:34px; border-radius:9px;
@@ -116,10 +120,21 @@ header.top{
 }
 .iconBtn.active{border-color:var(--rune-dim); color:var(--rune);}
 
+@media(min-width:880px){
+  header.top{padding:16px 28px 12px;}
+  .headerInner{display:flex; align-items:center; gap:24px;}
+  .brand{margin-bottom:0; flex-shrink:0;}
+  .searchRow{flex:1 1 320px; margin-bottom:0; max-width:420px;}
+  .filterRow{flex-shrink:0; width:auto; flex-wrap:nowrap;}
+  .dropdown{flex:0 0 168px; min-width:0;}
+}
+
 .statsRow{
   display:flex; justify-content:space-between; align-items:center;
   font-size:12px; color:var(--parch-faint); padding:14px 16px 0; font-family:'JetBrains Mono',monospace;
+  max-width:var(--maxw); margin:0 auto;
 }
+@media(min-width:880px){.statsRow{padding:16px 28px 0;}}
 .statsRow button{
   background:none; border:1px solid var(--line); color:var(--parch-dim);
   border-radius:8px; padding:5px 10px; font-size:11.5px; font-family:'Inter',sans-serif; font-weight:600;
@@ -128,7 +143,8 @@ header.top{
 .statsRow button.active{border-color:#f0c14b; color:#f0c14b;}
 
 /* ===== Top stat boxes ===== */
-.topStats{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; padding:10px 16px 0;}
+.topStats{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; padding:10px 16px 0; max-width:var(--maxw); margin:0 auto;}
+@media(min-width:880px){.topStats{padding:12px 28px 0;}}
 .topStats .statBox .val{font-size:18px;}
 @media(max-width:480px){.topStats{grid-template-columns:repeat(2,1fr);}}
 
@@ -136,7 +152,9 @@ header.top{
 .grid{
   display:grid; grid-template-columns:1fr; gap:10px;
   padding:12px 16px 8px;
+  max-width:var(--maxw); margin:0 auto;
 }
+@media(min-width:880px){.grid{padding:12px 28px 8px;}}
 @media(min-width:640px){.grid{grid-template-columns:1fr 1fr;}}
 @media(min-width:980px){.grid{grid-template-columns:1fr 1fr 1fr;}}
 .grid.list{grid-template-columns:1fr;}
@@ -146,7 +164,9 @@ header.top{
   border:1px solid var(--line); border-radius:var(--r);
   padding:14px; position:relative; cursor:pointer;
   transition:border-color .15s, transform .1s;
+  overflow:hidden;
 }
+.card:hover{border-color:var(--rune-dim);}
 .card:active{transform:scale(0.985);}
 .card::before{
   content:''; position:absolute; inset:0; border-radius:var(--r);
@@ -266,6 +286,7 @@ footer.credit{text-align:center; padding:18px 16px; color:var(--parch-faint); fo
 <body>
 
 <header class="top">
+  <div class="headerInner">
   <div class="brand">
     <div class="mark">℣</div>
     <div>
@@ -287,6 +308,7 @@ footer.credit{text-align:center; padding:18px 16px; color:var(--parch-faint); fo
       <div class="ddPanel" id="ddRegionPanel"></div>
     </div>
     <button class="iconBtn" id="viewBtn" title="Ganti tampilan">▦</button>
+  </div>
   </div>
 </header>
 
