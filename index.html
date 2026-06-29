@@ -193,7 +193,7 @@ header.top{
 .metaItem{display:flex; align-items:center; gap:4px; color:var(--parch-faint);}
 .metaItem .v{color:var(--parch);}
 .metaItem.region .v{color:var(--rune);}
-.metaItem.drop .v{color:var(--rune);}
+.metaItem.drop .v{color:var(--ember);}
 
 .grid.list .card{padding:12px 14px;}
 .grid.list .cardDesc{-webkit-line-clamp:1;}
@@ -234,7 +234,7 @@ header.top{
 .statBox .lbl{font-size:10.5px; color:var(--parch-faint); margin-bottom:4px; letter-spacing:0.3px; text-transform:uppercase;}
 .statBox .val{font-family:'JetBrains Mono',monospace; font-weight:700; font-size:17px; color:var(--parch);}
 .statBox.region .val{color:var(--rune);}
-.statBox.drop .val{color:var(--rune);}
+.statBox.drop .val{color:var(--ember);}
 .classList{margin-bottom:18px;}
 .classList .lbl{font-size:11px; color:var(--parch-faint); margin-bottom:7px; text-transform:uppercase; letter-spacing:0.3px;}
 .classPills{display:flex; gap:6px; flex-wrap:wrap;}
@@ -242,7 +242,7 @@ header.top{
   padding:6px 11px; border-radius:8px; background:rgba(124,158,255,0.1);
   border:1px solid var(--rune-dim); color:var(--rune); font-size:12.5px; font-weight:600;
 }
-.classPill.drop{background:rgba(124,158,255,0.1); border-color:var(--rune-dim); color:var(--rune);}
+.classPill.drop{background:rgba(232,101,79,0.12); border-color:var(--ember-dim); color:var(--ember);}
 .sheetActions{display:flex; gap:8px;}
 .btn{
   flex:1; padding:11px; border-radius:10px; border:1px solid var(--line);
@@ -520,7 +520,7 @@ function card(it){
         <h3 class="cardName">${esc(it.name)}</h3>
         <div class="cardTags">
           <span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Lv ${it.level}</span>
-          ${isUndead?`<span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Undead</span>`:''}
+          ${isUndead?`<span class="catBadge" style="color:var(--ember); border-color:var(--ember-dim); background:rgba(232,101,79,0.12);">Undead</span>`:''}
         </div>
       </div>
     </div>
@@ -565,7 +565,7 @@ function openModal(id){
   els.sheetIcon.title = img ? 'Lihat gambar asli' : '';
   els.sheetIcon.onclick = img ? ()=>window.open(img, '_blank', 'noopener') : null;
   els.sheetTitle.textContent = it.name;
-  els.sheetTags.innerHTML = `<span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Lv ${it.level}</span>` + (isUndead?`<span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Undead</span>`:'');
+  els.sheetTags.innerHTML = `<span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Lv ${it.level}</span>` + (isUndead?`<span class="catBadge" style="color:var(--ember); border-color:var(--ember-dim); background:rgba(232,101,79,0.12);">Undead</span>`:'');
   const regionCount = (it.regionNames||[]).length;
   const dropCount = (it.rewardNames||[]).length;
   els.sheetDesc.textContent = `Monster level ${it.level}${isUndead?' bertipe Undead':''}, ditemukan di ${regionCount || 0} wilayah${dropCount?`, memiliki ${dropCount} jenis drop item.`:'.'}`;
