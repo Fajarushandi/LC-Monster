@@ -1,89 +1,63 @@
-// Naikkan nomor ini SETIAP kali kamu deploy update baru (termasuk kalau
-// nambah/edit monster di monsters-full.json atau EMBEDDED_MONSTERS).
-const VERSION = 'v2';
-const CACHE = `lc-monsterdb-${VERSION}`;
+const CACHE='lc-monsterdb-runtime';
 
-const ASSETS = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/monsters-full.json',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/icon-192-maskable.png',
-  '/icon-512-maskable.png'
+const PRECACHE=[
+'/',
+'/index.html',
+'/icon-192.png',
+'/icon-512.png',
+'/icon-192-maskable.png',
+'/icon-512-maskable.png'
 ];
 
-self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open(CACHE).then(c =>
-      // Pakai allSettled per-file, BUKAN addAll(), supaya 1 asset gagal
-      // (misal lupa upload salah satu file icon) tidak menggagalkan
-      // instalasi SW secara keseluruhan.
-      Promise.allSettled(
-        ASSETS.map(url =>
-          fetch(url).then(res => {
-            if (res.ok) return c.put(url, res);
-            console.warn('SW install: skip (status ' + res.status + ')', url);
-          }).catch(err => console.warn('SW install: skip (fetch error)', url, err))
-        )
-      )
-    )
-  );
-  self.skipWaiting();
+self.addEventListener('install',e=>{
+ e.waitUntil(caches.open(CACHE).then(async c=>{
+   await Promise.allSettled(PRECACHE.map(async u=>{
+     try{
+      const r=await fetch(u,{cache:'reload'});
+      if(r.ok) await c.put(u,r);
+     }catch{}
+   }));
+ }));
+ self.skipWaiting();
 });
 
-self.addEventListener('activate', e => {
-  e.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(
-        keys.filter(k => k !== CACHE).map(k => caches.delete(k))
-      )
-    )
-  );
-  self.clients.claim();
+self.addEventListener('activate',e=>{
+ e.waitUntil((async()=>{
+  const keys=await caches.keys();
+  await Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)));
+  await self.clients.claim();
+ })());
 });
 
-self.addEventListener('fetch', e => {
-  const req = e.request;
-
-  if (req.method !== 'GET') return;
-  if (new URL(req.url).origin !== self.location.origin) return;
-
-  const isNavigation = req.mode === 'navigate';
-  const isHtmlOrJsonOrJs = /\.(html|js|json)$/.test(req.url) || req.url.endsWith('/');
-
-  // Network-first untuk HTML/JS/JSON -> selalu coba versi terbaru dulu,
-  // fallback ke cache kalau offline. Penting khususnya untuk
-  // monsters-full.json supaya update data monster baru langsung kepakai saat online.
-  if (isNavigation || isHtmlOrJsonOrJs) {
-    e.respondWith(
-      fetch(req)
-        .then(res => {
-          const resClone = res.clone();
-          caches.open(CACHE).then(c => c.put(req, resClone));
-          return res;
-        })
-        .catch(() => caches.match(req).then(cached => cached || caches.match('/index.html')))
-    );
-    return;
-  }
-
-  // Cache-first untuk asset statis (icon, manifest)
-  e.respondWith(
-    caches.match(req).then(cached => {
-      if (cached) return cached;
-      return fetch(req).then(res => {
-        const resClone = res.clone();
-        caches.open(CACHE).then(c => c.put(req, resClone));
-        return res;
-      }).catch(() => cached);
-    })
-  );
+self.addEventListener('fetch',e=>{
+ const req=e.request;
+ if(req.method!=='GET') return;
+ const url=new URL(req.url);
+ if(url.origin!==location.origin) return;
+ const dynamic=req.mode==='navigate'||/\.(html|js|json)$/.test(url.pathname)||url.pathname==='/';
+ if(dynamic){
+  e.respondWith((async()=>{
+    try{
+      const res=await fetch(req,{cache:'no-store'});
+      const c=await caches.open(CACHE);
+      c.put(req,res.clone());
+      return res;
+    }catch{
+      return (await caches.match(req))||(await caches.match('/index.html'));
+    }
+  })());
+  return;
+ }
+ e.respondWith((async()=>{
+   const c=await caches.open(CACHE);
+   const hit=await c.match(req);
+   if(hit) return hit;
+   const res=await fetch(req);
+   if(res.ok) c.put(req,res.clone());
+   return res;
+ })());
 });
 
-self.addEventListener('message', e => {
-  if (e.data === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
+self.addEventListener('message',e=>{
+ if(e.data==='SKIP_WAITING') self.skipWaiting();
 });
