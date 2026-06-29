@@ -24,8 +24,8 @@ html,body{margin:0;padding:0;}
 body{
   background:var(--ink-0);
   background-image:
-    radial-gradient(circle at 15% 0%, rgba(232,101,79,0.07), transparent 40%),
-    radial-gradient(circle at 85% 100%, rgba(124,158,255,0.05), transparent 45%);
+    radial-gradient(circle at 15% 0%, rgba(124,158,255,0.07), transparent 40%),
+    radial-gradient(circle at 85% 100%, rgba(232,101,79,0.05), transparent 45%);
   color:var(--parch);
   font-family:'Inter',system-ui,sans-serif;
   min-height:100vh;
@@ -46,11 +46,11 @@ header.top{
 .brand{display:flex; align-items:center; gap:10px; margin-bottom:12px;}
 .brand .mark{
   width:34px; height:34px; border-radius:9px;
-  background:linear-gradient(155deg, var(--ember), #8a3528);
+  background:linear-gradient(155deg, var(--rune), #4f63b8);
   display:flex; align-items:center; justify-content:center;
   font-family:'Cormorant Garamond',serif; font-weight:700; font-size:18px; color:#0b0e16;
   flex-shrink:0;
-  box-shadow:0 0 18px rgba(232,101,79,0.35);
+  box-shadow:0 0 18px rgba(124,158,255,0.35);
 }
 .brand h1{
   font-family:'Cormorant Garamond',serif; font-weight:700; font-size:21px;
@@ -65,7 +65,7 @@ header.top{
   color:var(--parch); font-size:15px; font-family:'Inter',sans-serif;
   outline:none;
 }
-.searchRow input:focus{border-color:var(--ember-dim);}
+.searchRow input:focus{border-color:var(--rune-dim);}
 .searchRow input::placeholder{color:var(--parch-faint);}
 .searchRow .clear{
   position:absolute; right:8px; top:50%; transform:translateY(-50%);
@@ -85,9 +85,9 @@ header.top{
 .dropdown .ddBtn .lbl{color:var(--parch-faint); font-weight:500; margin-right:2px;}
 .dropdown .ddBtn .val{color:var(--parch); flex:1; text-align:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .dropdown .ddBtn .arrow{font-size:10px; color:var(--parch-faint); transition:transform .15s; flex-shrink:0;}
-.dropdown.open .ddBtn{border-color:var(--ember-dim);}
+.dropdown.open .ddBtn{border-color:var(--rune-dim);}
 .dropdown.open .ddBtn .arrow{transform:rotate(180deg);}
-.dropdown.filled .ddBtn .val{color:var(--ember);}
+.dropdown.filled .ddBtn .val{color:var(--rune);}
 .dropdown .ddPanel{
   position:absolute; top:calc(100% + 6px); left:0; right:0; z-index:25;
   background:var(--ink-2); border:1px solid var(--line); border-radius:11px;
@@ -100,7 +100,7 @@ header.top{
   color:var(--parch-dim); cursor:pointer; user-select:none;
 }
 .ddOption:active{background:var(--ink-3);}
-.ddOption.active{background:rgba(232,101,79,0.14); color:var(--ember); font-weight:700;}
+.ddOption.active{background:rgba(124,158,255,0.14); color:var(--rune); font-weight:700;}
 .ddOption.indent{padding-left:20px;}
 .ddCategory{
   padding:9px 11px 4px; font-size:10.5px; font-weight:700; text-transform:uppercase;
@@ -114,7 +114,7 @@ header.top{
   background:var(--ink-2); color:var(--parch-dim); font-size:14px; font-weight:700;
   cursor:pointer; user-select:none; font-family:'Inter',sans-serif;
 }
-.iconBtn.active{border-color:var(--ember-dim); color:var(--ember);}
+.iconBtn.active{border-color:var(--rune-dim); color:var(--rune);}
 
 .statsRow{
   display:flex; justify-content:space-between; align-items:center;
@@ -150,7 +150,7 @@ header.top{
 .card:active{transform:scale(0.985);}
 .card::before{
   content:''; position:absolute; inset:0; border-radius:var(--r);
-  background:linear-gradient(160deg, rgba(232,101,79,0.06), transparent 50%);
+  background:linear-gradient(160deg, rgba(124,158,255,0.06), transparent 50%);
   pointer-events:none;
 }
 .cardTop{display:flex; gap:11px; align-items:flex-start;}
@@ -161,9 +161,9 @@ header.top{
 }
 .icon img{width:100%; height:100%; object-fit:contain; image-rendering:pixelated;}
 .icon.clickable{cursor:pointer; transition:transform 0.15s ease, border-color 0.15s ease;}
-.icon.clickable:hover{transform:scale(1.05); border-color:var(--ember-dim);}
+.icon.clickable:hover{transform:scale(1.05); border-color:var(--rune-dim);}
 .icon.clickable:active{transform:scale(0.97);}
-.fallbackIcon{font-family:'Cormorant Garamond',serif; font-weight:700; color:var(--ember); font-size:14px;}
+.fallbackIcon{font-family:'Cormorant Garamond',serif; font-weight:700; color:var(--rune); font-size:14px;}
 .cardInfo{flex:1; min-width:0;}
 .cardName{
   font-family:'Cormorant Garamond',serif; font-weight:700; font-size:18px;
@@ -193,14 +193,14 @@ header.top{
 .metaItem{display:flex; align-items:center; gap:4px; color:var(--parch-faint);}
 .metaItem .v{color:var(--parch);}
 .metaItem.region .v{color:var(--rune);}
-.metaItem.drop .v{color:var(--ember);}
+.metaItem.drop .v{color:var(--rune);}
 
 .grid.list .card{padding:12px 14px;}
 .grid.list .cardDesc{-webkit-line-clamp:1;}
 
 .empty{display:none; text-align:center; padding:60px 20px; color:var(--parch-faint);}
 .empty.show{display:block;}
-.empty .glyph{font-family:'Cormorant Garamond',serif; font-size:40px; color:var(--ember-dim); margin-bottom:10px;}
+.empty .glyph{font-family:'Cormorant Garamond',serif; font-size:40px; color:var(--rune-dim); margin-bottom:10px;}
 
 /* ===== Modal ===== */
 .overlay{
@@ -234,7 +234,7 @@ header.top{
 .statBox .lbl{font-size:10.5px; color:var(--parch-faint); margin-bottom:4px; letter-spacing:0.3px; text-transform:uppercase;}
 .statBox .val{font-family:'JetBrains Mono',monospace; font-weight:700; font-size:17px; color:var(--parch);}
 .statBox.region .val{color:var(--rune);}
-.statBox.drop .val{color:var(--ember);}
+.statBox.drop .val{color:var(--rune);}
 .classList{margin-bottom:18px;}
 .classList .lbl{font-size:11px; color:var(--parch-faint); margin-bottom:7px; text-transform:uppercase; letter-spacing:0.3px;}
 .classPills{display:flex; gap:6px; flex-wrap:wrap;}
@@ -242,14 +242,14 @@ header.top{
   padding:6px 11px; border-radius:8px; background:rgba(124,158,255,0.1);
   border:1px solid var(--rune-dim); color:var(--rune); font-size:12.5px; font-weight:600;
 }
-.classPill.drop{background:rgba(232,101,79,0.1); border-color:var(--ember-dim); color:var(--ember);}
+.classPill.drop{background:rgba(124,158,255,0.1); border-color:var(--rune-dim); color:var(--rune);}
 .sheetActions{display:flex; gap:8px;}
 .btn{
   flex:1; padding:11px; border-radius:10px; border:1px solid var(--line);
   background:var(--ink-2); color:var(--parch); font-size:14px; font-weight:600; cursor:pointer;
   font-family:'Inter',sans-serif;
 }
-.btn.primary{background:rgba(232,101,79,0.14); border-color:var(--ember-dim); color:var(--ember);}
+.btn.primary{background:rgba(124,158,255,0.14); border-color:var(--rune-dim); color:var(--rune);}
 .btn.primary.active{background:rgba(240,193,75,0.14); border-color:#5c4a1f; color:#f0c14b;}
 
 .toast{
@@ -267,9 +267,9 @@ footer.credit{text-align:center; padding:18px 16px; color:var(--parch-faint); fo
 
 <header class="top">
   <div class="brand">
-    <div class="mark">ℳ</div>
+    <div class="mark">℣</div>
     <div>
-      <h1>LC Monster DB</h1>
+      <h1>LC Monsters</h1>
       <div class="sub">Database Monster Lineage Classic</div>
     </div>
   </div>
@@ -519,7 +519,7 @@ function card(it){
       <div class="cardInfo">
         <h3 class="cardName">${esc(it.name)}</h3>
         <div class="cardTags">
-          <span class="catBadge" style="color:#ff9686; border-color:#ff968666; background:#e8654f1a;">Lv ${it.level}</span>
+          <span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Lv ${it.level}</span>
           ${isUndead?`<span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Undead</span>`:''}
         </div>
       </div>
@@ -565,7 +565,7 @@ function openModal(id){
   els.sheetIcon.title = img ? 'Lihat gambar asli' : '';
   els.sheetIcon.onclick = img ? ()=>window.open(img, '_blank', 'noopener') : null;
   els.sheetTitle.textContent = it.name;
-  els.sheetTags.innerHTML = `<span class="catBadge" style="color:#ff9686; border-color:#ff968666; background:#e8654f1a;">Lv ${it.level}</span>` + (isUndead?`<span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Undead</span>`:'');
+  els.sheetTags.innerHTML = `<span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Lv ${it.level}</span>` + (isUndead?`<span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Undead</span>`:'');
   const regionCount = (it.regionNames||[]).length;
   const dropCount = (it.rewardNames||[]).length;
   els.sheetDesc.textContent = `Monster level ${it.level}${isUndead?' bertipe Undead':''}, ditemukan di ${regionCount || 0} wilayah${dropCount?`, memiliki ${dropCount} jenis drop item.`:'.'}`;
