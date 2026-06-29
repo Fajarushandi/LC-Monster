@@ -101,6 +101,12 @@ header.top{
 }
 .ddOption:active{background:var(--ink-3);}
 .ddOption.active{background:rgba(232,101,79,0.14); color:var(--ember); font-weight:700;}
+.ddOption.indent{padding-left:20px;}
+.ddCategory{
+  padding:9px 11px 4px; font-size:10.5px; font-weight:700; text-transform:uppercase;
+  letter-spacing:0.4px; color:var(--parch-faint); user-select:none;
+}
+.ddCategory:not(:first-child){margin-top:4px; border-top:1px solid var(--line); padding-top:10px;}
 
 .iconBtn{
   flex:0 0 auto; width:42px; display:flex; align-items:center; justify-content:center;
@@ -109,23 +115,6 @@ header.top{
   cursor:pointer; user-select:none; font-family:'Inter',sans-serif;
 }
 .iconBtn.active{border-color:var(--ember-dim); color:var(--ember);}
-
-.lvlPanel{
-  display:none; grid-template-columns:1fr 1fr auto; gap:8px; align-items:end;
-  padding:10px 16px 0;
-}
-.lvlPanel.show{display:grid;}
-.lvlPanel label{font-size:10.5px; color:var(--parch-faint); font-weight:600; display:block; margin-bottom:5px; text-transform:uppercase; letter-spacing:0.3px;}
-.lvlPanel input[type=number]{
-  width:100%; padding:9px 10px; border-radius:9px; border:1px solid var(--line);
-  background:var(--ink-2); color:var(--parch); font-size:14px; outline:none; font-family:'JetBrains Mono',monospace;
-}
-.lvlPanel input[type=number]:focus{border-color:var(--ember-dim);}
-.lvlReset{
-  padding:9px 12px; border-radius:9px; border:1px solid var(--line); background:var(--ink-2);
-  color:var(--parch-dim); font-size:12.5px; font-weight:600; cursor:pointer; white-space:nowrap;
-  font-family:'Inter',sans-serif;
-}
 
 .statsRow{
   display:flex; justify-content:space-between; align-items:center;
@@ -171,6 +160,9 @@ header.top{
   display:flex; align-items:center; justify-content:center; overflow:hidden;
 }
 .icon img{width:100%; height:100%; object-fit:contain; image-rendering:pixelated;}
+.icon.clickable{cursor:pointer; transition:transform 0.15s ease, border-color 0.15s ease;}
+.icon.clickable:hover{transform:scale(1.05); border-color:var(--ember-dim);}
+.icon.clickable:active{transform:scale(0.97);}
 .fallbackIcon{font-family:'Cormorant Garamond',serif; font-weight:700; color:var(--ember); font-size:14px;}
 .cardInfo{flex:1; min-width:0;}
 .cardName{
@@ -294,16 +286,9 @@ footer.credit{text-align:center; padding:18px 16px; color:var(--parch-faint); fo
       <button class="ddBtn" type="button"><span class="lbl">Region:</span><span class="val" id="ddRegionVal">Semua</span><span class="arrow">▾</span></button>
       <div class="ddPanel" id="ddRegionPanel"></div>
     </div>
-    <button class="iconBtn" id="lvlToggle" title="Filter level">Lv</button>
     <button class="iconBtn" id="viewBtn" title="Ganti tampilan">▦</button>
   </div>
 </header>
-
-<div class="lvlPanel" id="lvlPanel">
-  <div><label>Level min</label><input type="number" id="lvlMin" min="1" max="95" placeholder="1"></div>
-  <div><label>Level max</label><input type="number" id="lvlMax" min="1" max="95" placeholder="95"></div>
-  <button class="lvlReset" id="lvlReset">Reset</button>
-</div>
 
 <div class="topStats" id="stats"></div>
 
@@ -361,6 +346,7 @@ const EMBEDDED_MONSTERS = [{"id":535,"name":"Anemon Laut","image":"https://asset
 'use strict';
 
 const GROUPS = ['all','Lapangan (Field)','Dungeon'];
+const REGION_TREE = [{"name":"Lapangan (Field)","child":[{"name":"Pulau Berbicara","child":[{"name":"Pulau Berbicara"}]},{"name":"Benua Aden","child":[{"name":"Benua Aden"},{"name":"Tebing Salju Oren"},{"name":"Medan Tempur Elmore"},{"name":"Benteng Perbatasan"},{"name":"Wilayah Kesatria Perak"},{"name":"Hutan Orc"},{"name":"Gludio"},{"name":"Windawood"},{"name":"Hutan Peri"},{"name":"Kent"},{"name":"Lembah Naga"},{"name":"Sarang Naga Api"},{"name":"Welden"},{"name":"Giran"},{"name":"Heine"},{"name":"Oren"}]},{"name":"Tanah Berkat Tercemar"},{"name":"Pulau Khayalan"},{"name":"Musim Panas Tanah Berkat Murka"}]},{"name":"Dungeon","child":[{"name":"Menara Gading","child":[{"name":"Menara Gading Lantai 4"},{"name":"Menara Gading Lantai 5"},{"name":"Menara Gading Lantai 6"},{"name":"Menara Gading Lantai 7"},{"name":"Menara Gading Lantai 8"}]},{"name":"Dungeon Gludio","child":[{"name":"Dungeon Gludio Lantai 1"},{"name":"Dungeon Gludio Lantai 2"},{"name":"Dungeon Gludio Lantai 3"},{"name":"Dungeon Gludio Lantai 4"},{"name":"Dungeon Gludio Lantai 5"},{"name":"Dungeon Gludio Lantai 6"},{"name":"Dungeon Gludio Lantai 7"}]},{"name":"Dungeon Pulau Berbicara","child":[{"name":"Dungeon Pulau Berbicara Lantai 1"},{"name":"Dungeon Pulau Berbicara Lantai 2"}]},{"name":"Dungeon Hutan Peri","child":[{"name":"Dungeon Hutan Peri Lantai 1"},{"name":"Dungeon Hutan Peri Lantai 2"},{"name":"Dungeon Hutan Peri Lantai 3"}]},{"name":"Dungeon Giran","child":[{"name":"Dungeon Giran Lantai 1"},{"name":"Dungeon Giran Lantai 2"},{"name":"Dungeon Giran Lantai 3"},{"name":"Dungeon Giran Lantai 4"}]},{"name":"Dungeon Gurun","child":[{"name":"Dungeon Gurun Lantai 1"},{"name":"Dungeon Gurun Lantai 2"},{"name":"Dungeon Gurun Lantai 3"},{"name":"Dungeon Gurun Lantai 4"}]},{"name":"Dungeon Lembah Naga","child":[{"name":"Dungeon Lembah Naga Lantai 1"},{"name":"Dungeon Lembah Naga Lantai 2"},{"name":"Dungeon Lembah Naga Lantai 3"},{"name":"Dungeon Lembah Naga Lantai 4"},{"name":"Dungeon Lembah Naga Lantai 5"},{"name":"Dungeon Lembah Naga Lantai 6"},{"name":"Dungeon Lembah Naga Lantai 7"}]},{"name":"Dungeon Sarang Semut","child":[{"name":"Dungeon Sarang Semut Lantai 1"},{"name":"Dungeon Sarang Semut Lantai 2"}]},{"name":"Dungeon Kastil Windawood","child":[{"name":"Dungeon Kastil Windawood Lantai 1"},{"name":"Dungeon Kastil Windawood Lantai 2"}]},{"name":"Kerajaan Eva","child":[{"name":"Saluran Bawah Tanah Lantai 1"},{"name":"Saluran Bawah Tanah Lantai 2"},{"name":"Saluran Bawah Tanah Lantai 3"},{"name":"Kerajaan Eva"},{"name":"Sarang Papurion"}]},{"name":"Gua Kristal Es","child":[{"name":"Gua Kristal Es Lantai 1"},{"name":"Gua Kristal Es Lantai 2"},{"name":"Gua Kristal Es Lantai 3"}]}]}];
 
 const els = {
   q: document.getElementById('q'),
@@ -371,11 +357,6 @@ const els = {
   ddRegion: document.getElementById('ddRegion'),
   ddRegionVal: document.getElementById('ddRegionVal'),
   ddRegionPanel: document.getElementById('ddRegionPanel'),
-  lvlToggle: document.getElementById('lvlToggle'),
-  lvlPanel: document.getElementById('lvlPanel'),
-  lvlMin: document.getElementById('lvlMin'),
-  lvlMax: document.getElementById('lvlMax'),
-  lvlReset: document.getElementById('lvlReset'),
   viewBtn: document.getElementById('viewBtn'),
   stats: document.getElementById('stats'),
   count: document.getElementById('count'),
@@ -402,7 +383,7 @@ const els = {
 let savedView = 'grid';
 try{ savedView = localStorage.getItem('lc_monster_view') || 'grid'; }catch(e){}
 
-const state = { items: [], group: 'all', region: 'all', lvlMin: null, lvlMax: null, view: savedView, onlyFav: false, query: '', selected: null };
+const state = { items: [], group: 'all', region: 'all', view: savedView, onlyFav: false, query: '', selected: null };
 
 function esc(s){ return (s??'').toString().replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
 function safe(v){ return (v && v.toString().trim()) ? v : ''; }
@@ -447,7 +428,42 @@ function buildDropdown(dd, panel, valEl, options, labelAll, current, onPick){
 function regionsForGroup(){
   return [...new Set(state.items
     .filter(it=> state.group==='all' || (it.groups||[]).includes(state.group))
-    .flatMap(it=>it.regionNames||[]))].sort();
+    .flatMap(it=>it.regionNames||[]))];
+}
+
+function buildRegionTree(availableRegions){
+  // Walk REGION_TREE, keep only leaves present in availableRegions, drop empty categories
+  const avail = new Set(availableRegions);
+  function walk(node){
+    if(!node.child){
+      return avail.has(node.name) ? { name:node.name, leaf:true } : null;
+    }
+    const kids = node.child.map(walk).filter(Boolean);
+    if(!kids.length) return null;
+    return { name:node.name, leaf:false, child:kids };
+  }
+  return REGION_TREE.map(walk).filter(Boolean);
+}
+
+function renderRegionPanel(){
+  const availableRegions = regionsForGroup();
+  const tree = buildRegionTree(availableRegions);
+  const rows = [];
+  function emit(node, depth){
+    if(node.leaf){
+      rows.push(`<div class="ddOption${depth>0?' indent':''}${node.name===state.region?' active':''}" data-v="${esc(node.name)}">${esc(node.name)}</div>`);
+    } else {
+      rows.push(`<div class="ddCategory">${esc(node.name)}</div>`);
+      node.child.forEach(c=>emit(c, depth+1));
+    }
+  }
+  tree.forEach(top=>emit(top, 0));
+  els.ddRegionPanel.innerHTML = `<div class="ddOption${state.region==='all'?' active':''}" data-v="all">Semua</div>` + rows.join('');
+  els.ddRegionPanel.querySelectorAll('.ddOption').forEach(opt=>{
+    opt.onclick = (e)=>{ e.stopPropagation(); state.region = opt.dataset.v; els.ddRegion.classList.remove('open'); renderDropdowns(); render(); };
+  });
+  els.ddRegionVal.textContent = state.region==='all' ? 'Semua' : state.region;
+  els.ddRegion.classList.toggle('filled', state.region!=='all');
 }
 
 function renderDropdowns(){
@@ -457,8 +473,7 @@ function renderDropdowns(){
     if(state.region!=='all' && !regions.includes(state.region)) state.region='all';
     renderDropdowns(); render();
   });
-  const regions = ['all', ...regionsForGroup()];
-  buildDropdown(els.ddRegion, els.ddRegionPanel, els.ddRegionVal, regions, 'Semua', state.region, (v)=>{ state.region=v; renderDropdowns(); render(); });
+  renderRegionPanel();
 }
 
 function initDropdownToggle(){
@@ -471,8 +486,6 @@ function filtered(){
   return state.items.filter(it=>{
     if(state.group !== 'all' && !(it.groups||[]).includes(state.group)) return false;
     if(state.region !== 'all' && !(it.regionNames||[]).includes(state.region)) return false;
-    if(state.lvlMin !== null && it.level < state.lvlMin) return false;
-    if(state.lvlMax !== null && it.level > state.lvlMax) return false;
     if(state.onlyFav && !isFav(it.id)) return false;
     if(state.query && !it._hay.includes(state.query)) return false;
     return true;
@@ -548,6 +561,9 @@ function openModal(id){
   const img = safe(it.image);
   const isUndead = it.formName === 'Undead';
   els.sheetIcon.innerHTML = img ? `<img src="${esc(img)}" alt="${esc(it.name)}" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'fallbackIcon',textContent:'LC'}))">` : `<div class="fallbackIcon">LC</div>`;
+  els.sheetIcon.classList.toggle('clickable', !!img);
+  els.sheetIcon.title = img ? 'Lihat gambar asli' : '';
+  els.sheetIcon.onclick = img ? ()=>window.open(img, '_blank', 'noopener') : null;
   els.sheetTitle.textContent = it.name;
   els.sheetTags.innerHTML = `<span class="catBadge" style="color:#ff9686; border-color:#ff968666; background:#e8654f1a;">Lv ${it.level}</span>` + (isUndead?`<span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Undead</span>`:'');
   const regionCount = (it.regionNames||[]).length;
@@ -584,10 +600,6 @@ function initUI(){
     render();
   });
   els.clearBtn.onclick = ()=>{ els.q.value=''; state.query=''; els.clearBtn.classList.remove('show'); render(); els.q.focus(); };
-  els.lvlToggle.onclick = ()=>{ const showing = els.lvlPanel.classList.toggle('show'); els.lvlToggle.classList.toggle('active', showing); };
-  els.lvlMin.addEventListener('input', ()=>{ const v=els.lvlMin.value; state.lvlMin = v===''?null:Math.max(1,Math.min(95,+v)); render(); });
-  els.lvlMax.addEventListener('input', ()=>{ const v=els.lvlMax.value; state.lvlMax = v===''?null:Math.max(1,Math.min(95,+v)); render(); });
-  els.lvlReset.onclick = ()=>{ els.lvlMin.value=''; els.lvlMax.value=''; state.lvlMin=null; state.lvlMax=null; render(); };
   els.viewBtn.onclick = ()=>{
     state.view = state.view === 'grid' ? 'list' : 'grid';
     try{ localStorage.setItem('lc_monster_view', state.view); }catch(e){}
