@@ -2,7 +2,7 @@
   {
     "id": 535,
     "name": "Anemon Laut",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/535.png",
+    "image": "monster_icons/535.png",
     "formName": "",
     "level": 1,
     "regionNames": [
@@ -11,12 +11,12 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 536,
     "name": "Anemon Laut",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/536.png",
+    "image": "monster_icons/536.png",
     "formName": "",
     "level": 1,
     "regionNames": [
@@ -25,12 +25,12 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 723,
     "name": "Ratu Es",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/723.png",
+    "image": "monster_icons/723.png",
     "formName": "",
     "level": 1,
     "regionNames": [
@@ -39,12 +39,12 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 0,
     "name": "Orc",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/0.png",
+    "image": "monster_icons/0.png",
     "formName": "",
     "level": 2,
     "regionNames": [
@@ -63,7 +63,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Pedang Bangsa Orc",
       "Zirah Rantai Bangsa Orc",
       "Kulit Hewan",
@@ -76,7 +76,7 @@
   {
     "id": 156,
     "name": "Orc",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/156.png",
+    "image": "monster_icons/156.png",
     "formName": "",
     "level": 2,
     "regionNames": [
@@ -88,7 +88,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Tongkat Kayu Pinus",
       "Zirah Rantai Bangsa Orc Terkutuk",
       "Safir",
@@ -109,7 +109,7 @@
   {
     "id": 245,
     "name": "Goblin",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/245.png",
+    "image": "monster_icons/245.png",
     "formName": "",
     "level": 2,
     "regionNames": [
@@ -124,7 +124,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Merah",
       "Sepatu Bot Pendek",
       "Adena",
@@ -136,7 +136,7 @@
   {
     "id": 521,
     "name": "Ikan",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/521.png",
+    "image": "monster_icons/521.png",
     "formName": "",
     "level": 2,
     "regionNames": [
@@ -145,12 +145,12 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 522,
     "name": "Ikan",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/522.png",
+    "image": "monster_icons/522.png",
     "formName": "",
     "level": 2,
     "regionNames": [
@@ -159,12 +159,12 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 523,
     "name": "Ikan",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/523.png",
+    "image": "monster_icons/523.png",
     "formName": "",
     "level": 2,
     "regionNames": [
@@ -173,12 +173,12 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 524,
     "name": "Ikan",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/524.png",
+    "image": "monster_icons/524.png",
     "formName": "",
     "level": 2,
     "regionNames": [
@@ -187,12 +187,12 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 525,
     "name": "Ikan",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/525.png",
+    "image": "monster_icons/525.png",
     "formName": "",
     "level": 2,
     "regionNames": [
@@ -201,12 +201,12 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 1,
     "name": "Pemanah Orc",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/1.png",
+    "image": "monster_icons/1.png",
     "formName": "",
     "level": 3,
     "regionNames": [
@@ -224,7 +224,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Zirah Rantai Bangsa Orc",
       "Jubah Bangsa Orc",
       "Kulit Hewan",
@@ -237,7 +237,7 @@
   {
     "id": 147,
     "name": "Pemanah Orc",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/147.png",
+    "image": "monster_icons/147.png",
     "formName": "",
     "level": 3,
     "regionNames": [
@@ -249,7 +249,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Jubah Bangsa Orc",
       "Zirah Rantai Bangsa Orc Terkutuk",
       "Bola Roh",
@@ -269,7 +269,7 @@
   {
     "id": 249,
     "name": "Kobold",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/249.png",
+    "image": "monster_icons/249.png",
     "formName": "",
     "level": 3,
     "regionNames": [
@@ -283,7 +283,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Sepatu Bot Pendek",
       "Kulit Hewan",
       "Ramuan Keruh",
@@ -294,7 +294,7 @@
   {
     "id": 2381,
     "name": "Deep Flower Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2381.png",
+    "image": "monster_icons/2381.png",
     "formName": "",
     "level": 3,
     "regionNames": [
@@ -303,14 +303,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2384,
     "name": "Esensi Tanah Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2384.png",
+    "image": "monster_icons/2384.png",
     "formName": "",
     "level": 3,
     "regionNames": [
@@ -319,14 +319,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2388,
     "name": "Petarung Manusia Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2388.png",
+    "image": "monster_icons/2388.png",
     "formName": "",
     "level": 3,
     "regionNames": [
@@ -335,14 +335,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2396,
     "name": "Orc Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2396.png",
+    "image": "monster_icons/2396.png",
     "formName": "",
     "level": 3,
     "regionNames": [
@@ -351,14 +351,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 144,
     "name": "Fungus",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/144.png",
+    "image": "monster_icons/144.png",
     "formName": "",
     "level": 4,
     "regionNames": [
@@ -374,14 +374,14 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Sari Spora Jamur"
     ]
   },
   {
     "id": 155,
     "name": "Serigala",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/155.png",
+    "image": "monster_icons/155.png",
     "formName": "",
     "level": 4,
     "regionNames": [
@@ -391,7 +391,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Bola Roh",
       "Anak Panah"
     ]
@@ -399,7 +399,7 @@
   {
     "id": 293,
     "name": "Idolon",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/293.png",
+    "image": "monster_icons/293.png",
     "formName": "",
     "level": 4,
     "regionNames": [
@@ -409,7 +409,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Kulit Hewan",
       "Adena"
     ]
@@ -417,7 +417,7 @@
   {
     "id": 294,
     "name": "Gremlin",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/294.png",
+    "image": "monster_icons/294.png",
     "formName": "",
     "level": 4,
     "regionNames": [
@@ -429,7 +429,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Emerald",
       "Safir",
       "Ruby",
@@ -439,7 +439,7 @@
   {
     "id": 4,
     "name": "Kurcaci",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/4.png",
+    "image": "monster_icons/4.png",
     "formName": "",
     "level": 5,
     "regionNames": [
@@ -455,7 +455,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Pedang Bangsa Kurcaci",
       "Jubah Bangsa Kurcaci",
       "Mithril",
@@ -469,7 +469,7 @@
   {
     "id": 145,
     "name": "Brob",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/145.png",
+    "image": "monster_icons/145.png",
     "formName": "",
     "level": 5,
     "regionNames": [
@@ -480,12 +480,12 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 163,
     "name": "Kurcaci",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/163.png",
+    "image": "monster_icons/163.png",
     "formName": "",
     "level": 5,
     "regionNames": [
@@ -495,7 +495,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Merah",
       "Ramuan Keruh",
       "Batu Kekuatan Sihir",
@@ -508,7 +508,7 @@
   {
     "id": 178,
     "name": "Collie",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/178.png",
+    "image": "monster_icons/178.png",
     "formName": "",
     "level": 5,
     "regionNames": [
@@ -519,14 +519,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 179,
     "name": "Anjing Gembala (Shepherd)",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/179.png",
+    "image": "monster_icons/179.png",
     "formName": "",
     "level": 5,
     "regionNames": [
@@ -540,7 +540,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Daging",
       "Kulit Hewan",
       "Adena"
@@ -549,7 +549,7 @@
   {
     "id": 295,
     "name": "Imp",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/295.png",
+    "image": "monster_icons/295.png",
     "formName": "",
     "level": 5,
     "regionNames": [
@@ -560,7 +560,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Kulit Hewan",
       "Adena"
     ]
@@ -568,7 +568,7 @@
   {
     "id": 465,
     "name": "Rubah",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/465.png",
+    "image": "monster_icons/465.png",
     "formName": "",
     "level": 5,
     "regionNames": [
@@ -578,14 +578,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 516,
     "name": "Beruang",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/516.png",
+    "image": "monster_icons/516.png",
     "formName": "",
     "level": 5,
     "regionNames": [
@@ -595,14 +595,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 706,
     "name": "Husky",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/706.png",
+    "image": "monster_icons/706.png",
     "formName": "",
     "level": 5,
     "regionNames": [
@@ -613,14 +613,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 9,
     "name": "Serigala",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/9.png",
+    "image": "monster_icons/9.png",
     "formName": "",
     "level": 6,
     "regionNames": [
@@ -637,7 +637,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Daging",
       "Kulit Hewan"
     ]
@@ -645,7 +645,7 @@
   {
     "id": 27,
     "name": "Zombie",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/27.png",
+    "image": "monster_icons/27.png",
     "formName": "Undead",
     "level": 6,
     "regionNames": [
@@ -670,7 +670,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Kebangkitan (Resurrection)",
       "Adena",
       "Gulungan Teleport Diberkati",
@@ -681,7 +681,7 @@
   {
     "id": 164,
     "name": "Zombie",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/164.png",
+    "image": "monster_icons/164.png",
     "formName": "Undead",
     "level": 6,
     "regionNames": [
@@ -693,7 +693,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Teleport",
       "Gulungan Kebangkitan (Resurrection)",
       "Bola Roh",
@@ -706,7 +706,7 @@
   {
     "id": 177,
     "name": "Doberman",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/177.png",
+    "image": "monster_icons/177.png",
     "formName": "",
     "level": 6,
     "regionNames": [
@@ -720,7 +720,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Daging",
       "Kulit Hewan",
       "Adena"
@@ -729,7 +729,7 @@
   {
     "id": 190,
     "name": "Babi Hutan",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/190.png",
+    "image": "monster_icons/190.png",
     "formName": "",
     "level": 6,
     "regionNames": [
@@ -746,7 +746,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Daging",
       "Kulit Hewan",
       "Adena"
@@ -755,7 +755,7 @@
   {
     "id": 296,
     "name": "Sesepuh Imp",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/296.png",
+    "image": "monster_icons/296.png",
     "formName": "",
     "level": 6,
     "regionNames": [
@@ -766,7 +766,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Emerald",
       "Kulit Kualitas Tinggi",
       "Kulit Hewan",
@@ -779,7 +779,7 @@
   {
     "id": 2382,
     "name": "Roh Air Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2382.png",
+    "image": "monster_icons/2382.png",
     "formName": "",
     "level": 6,
     "regionNames": [
@@ -788,14 +788,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2389,
     "name": "Prajurit Kapak Manusia Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2389.png",
+    "image": "monster_icons/2389.png",
     "formName": "",
     "level": 6,
     "regionNames": [
@@ -804,14 +804,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2393,
     "name": "Ent Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2393.png",
+    "image": "monster_icons/2393.png",
     "formName": "",
     "level": 6,
     "regionNames": [
@@ -820,14 +820,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2397,
     "name": "Prajurit Kapak Orc Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2397.png",
+    "image": "monster_icons/2397.png",
     "formName": "",
     "level": 6,
     "regionNames": [
@@ -836,14 +836,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 11,
     "name": "Mata Monster",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/11.png",
+    "image": "monster_icons/11.png",
     "formName": "",
     "level": 7,
     "regionNames": [
@@ -860,7 +860,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Daging Mata Monster",
       "Batu Kekuatan Sihir"
     ]
@@ -868,7 +868,7 @@
   {
     "id": 2,
     "name": "Petarung Orc",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2.png",
+    "image": "monster_icons/2.png",
     "formName": "",
     "level": 8,
     "regionNames": [
@@ -888,7 +888,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Perisai Urukhai Terkutuk",
       "Zirah Rantai Bangsa Orc",
       "Jubah Bangsa Orc",
@@ -904,7 +904,7 @@
   {
     "id": 64,
     "name": "Crawling Crow",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/64.png",
+    "image": "monster_icons/64.png",
     "formName": "",
     "level": 8,
     "regionNames": [
@@ -915,7 +915,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Power Glove",
       "Sarung Tangan",
       "Adena",
@@ -925,7 +925,7 @@
   {
     "id": 148,
     "name": "Petarung Orc",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/148.png",
+    "image": "monster_icons/148.png",
     "formName": "",
     "level": 8,
     "regionNames": [
@@ -938,7 +938,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Merah",
       "Perisai Urukhai Terkutuk",
       "Zirah Rantai Bangsa Orc",
@@ -955,7 +955,7 @@
   {
     "id": 459,
     "name": "Gnoll",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/459.png",
+    "image": "monster_icons/459.png",
     "formName": "",
     "level": 8,
     "regionNames": [
@@ -965,7 +965,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Emerald",
       "Adena",
       "Safir",
@@ -978,7 +978,7 @@
   {
     "id": 512,
     "name": "Coelacanth",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/512.png",
+    "image": "monster_icons/512.png",
     "formName": "",
     "level": 8,
     "regionNames": [
@@ -987,14 +987,14 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 8,
     "name": "Manusia Serigala",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/8.png",
+    "image": "monster_icons/8.png",
     "formName": "",
     "level": 9,
     "regionNames": [
@@ -1016,7 +1016,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Pedang Panjang",
       "Zirah Rantai (Chain Mail) Terkutuk",
       "Buku Sihir (Enchant Dexterity)",
@@ -1036,7 +1036,7 @@
   {
     "id": 154,
     "name": "Manusia Serigala",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/154.png",
+    "image": "monster_icons/154.png",
     "formName": "",
     "level": 9,
     "regionNames": [
@@ -1048,7 +1048,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Pedang Panjang",
       "Buku Sihir (Enchant Dexterity)",
       "Zirah Sisik",
@@ -1069,7 +1069,7 @@
   {
     "id": 324,
     "name": "Petarung Bangsa Kurcaci",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/324.png",
+    "image": "monster_icons/324.png",
     "formName": "",
     "level": 9,
     "regionNames": [
@@ -1083,7 +1083,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Pedang Bangsa Kurcaci",
       "Jubah Bangsa Kurcaci",
       "Helm Besi Bangsa Kurcaci",
@@ -1098,7 +1098,7 @@
   {
     "id": 514,
     "name": "Ubur-Ubur",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/514.png",
+    "image": "monster_icons/514.png",
     "formName": "",
     "level": 9,
     "regionNames": [
@@ -1107,14 +1107,14 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 515,
     "name": "Ubur-Ubur",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/515.png",
+    "image": "monster_icons/515.png",
     "formName": "",
     "level": 9,
     "regionNames": [
@@ -1123,14 +1123,14 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 25,
     "name": "Kerangka (Skeleton)",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/25.png",
+    "image": "monster_icons/25.png",
     "formName": "Undead",
     "level": 10,
     "regionNames": [
@@ -1139,7 +1139,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Jubah Sihir Diberkati",
       "Tongkat Kayu Pinus",
       "Ramuan Hijau",
@@ -1157,7 +1157,7 @@
   {
     "id": 29,
     "name": "Kerangka (Skeleton)",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/29.png",
+    "image": "monster_icons/29.png",
     "formName": "Undead",
     "level": 10,
     "regionNames": [
@@ -1181,7 +1181,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Helm Terkutuk",
       "Ramuan Hijau",
       "Buku Sihir (Enchant Dexterity)",
@@ -1202,7 +1202,7 @@
   {
     "id": 94,
     "name": "Orc Gandhi",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/94.png",
+    "image": "monster_icons/94.png",
     "formName": "",
     "level": 10,
     "regionNames": [
@@ -1212,7 +1212,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Merah",
       "Buku Sihir Orc Gandhi",
       "Adena",
@@ -1224,7 +1224,7 @@
   {
     "id": 152,
     "name": "Orc Gandhi",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/152.png",
+    "image": "monster_icons/152.png",
     "formName": "",
     "level": 10,
     "regionNames": [
@@ -1236,7 +1236,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Merah",
       "Bola Roh",
       "Batu Kekuatan Sihir",
@@ -1247,7 +1247,7 @@
   {
     "id": 299,
     "name": "Zombie Orc",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/299.png",
+    "image": "monster_icons/299.png",
     "formName": "Undead",
     "level": 10,
     "regionNames": [
@@ -1258,7 +1258,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Zirah Rantai Bangsa Orc",
       "Gulungan Teleport",
       "Gulungan Kebangkitan (Resurrection)",
@@ -1272,7 +1272,7 @@
   {
     "id": 472,
     "name": "Buaya",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/472.png",
+    "image": "monster_icons/472.png",
     "formName": "",
     "level": 10,
     "regionNames": [
@@ -1286,7 +1286,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Emerald",
       "Buku Sihir (Call Lightning)",
@@ -1297,7 +1297,7 @@
   {
     "id": 972,
     "name": "Pelayan Ratu Es",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/972.png",
+    "image": "monster_icons/972.png",
     "formName": "",
     "level": 10,
     "regionNames": [
@@ -1306,7 +1306,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Mass Teleport)",
       "Kantong Misterius",
       "Buku Sihir (Lightning Storm)"
@@ -1315,7 +1315,7 @@
   {
     "id": 2383,
     "name": "Roh Api Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2383.png",
+    "image": "monster_icons/2383.png",
     "formName": "",
     "level": 10,
     "regionNames": [
@@ -1324,14 +1324,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2391,
     "name": "Pendekar Pedang Manusia Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2391.png",
+    "image": "monster_icons/2391.png",
     "formName": "",
     "level": 10,
     "regionNames": [
@@ -1340,14 +1340,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2394,
     "name": "Pan Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2394.png",
+    "image": "monster_icons/2394.png",
     "formName": "",
     "level": 10,
     "regionNames": [
@@ -1356,14 +1356,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2399,
     "name": "Petarung Orc Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2399.png",
+    "image": "monster_icons/2399.png",
     "formName": "",
     "level": 10,
     "regionNames": [
@@ -1372,14 +1372,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 235,
     "name": "Semut Raksasa",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/235.png",
+    "image": "monster_icons/235.png",
     "formName": "",
     "level": 12,
     "regionNames": [
@@ -1399,7 +1399,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Emerald",
       "Ramuan Hijau",
@@ -1412,7 +1412,7 @@
   {
     "id": 274,
     "name": "Penyihir Orc",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/274.png",
+    "image": "monster_icons/274.png",
     "formName": "",
     "level": 12,
     "regionNames": [
@@ -1425,7 +1425,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Sun Burst)",
       "Adena",
       "Batu Kekuatan Sihir",
@@ -1439,7 +1439,7 @@
   {
     "id": 276,
     "name": "Kerangka Pemanah",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/276.png",
+    "image": "monster_icons/276.png",
     "formName": "Undead",
     "level": 12,
     "regionNames": [
@@ -1462,7 +1462,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Adena",
       "Buku Sihir (Enchant Dexterity)",
@@ -1477,7 +1477,7 @@
   {
     "id": 500,
     "name": "Bakuk",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/500.png",
+    "image": "monster_icons/500.png",
     "formName": "",
     "level": 12,
     "regionNames": [
@@ -1487,7 +1487,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ruby Kualitas Tinggi",
       "Ramuan Hijau",
       "Adena",
@@ -1498,7 +1498,7 @@
   {
     "id": 5,
     "name": "Stone Golem",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/5.png",
+    "image": "monster_icons/5.png",
     "formName": "",
     "level": 13,
     "regionNames": [
@@ -1513,7 +1513,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Atam",
       "Adena",
       "Batu Kekuatan Sihir",
@@ -1531,7 +1531,7 @@
   {
     "id": 6,
     "name": "Stone Golem",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/6.png",
+    "image": "monster_icons/6.png",
     "formName": "",
     "level": 13,
     "regionNames": [
@@ -1543,7 +1543,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena",
       "Batu Kekuatan Sihir",
       "Ramuan Biru",
@@ -1559,7 +1559,7 @@
   {
     "id": 95,
     "name": "Orc Roba",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/95.png",
+    "image": "monster_icons/95.png",
     "formName": "",
     "level": 13,
     "regionNames": [
@@ -1569,7 +1569,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Adena",
       "Totem Roba",
@@ -1583,7 +1583,7 @@
   {
     "id": 153,
     "name": "Orc Roba",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/153.png",
+    "image": "monster_icons/153.png",
     "formName": "",
     "level": 13,
     "regionNames": [
@@ -1595,7 +1595,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Merah",
       "Emerald",
       "Ramuan Hijau",
@@ -1608,7 +1608,7 @@
   {
     "id": 162,
     "name": "Stone Golem",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/162.png",
+    "image": "monster_icons/162.png",
     "formName": "",
     "level": 13,
     "regionNames": [
@@ -1618,7 +1618,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Atam",
       "Batu Kekuatan Sihir",
       "Bola Roh",
@@ -1636,7 +1636,7 @@
   {
     "id": 277,
     "name": "Kerangka Prajurit Kapak",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/277.png",
+    "image": "monster_icons/277.png",
     "formName": "Undead",
     "level": 13,
     "regionNames": [
@@ -1648,7 +1648,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Tongkat Kayu Pinus",
       "Ramuan Hijau",
       "Adena",
@@ -1663,7 +1663,7 @@
   {
     "id": 278,
     "name": "Kerangka Prajurit Tombak",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/278.png",
+    "image": "monster_icons/278.png",
     "formName": "Undead",
     "level": 13,
     "regionNames": [
@@ -1676,7 +1676,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Adena",
       "Buku Sihir (Enchant Dexterity)",
@@ -1691,7 +1691,7 @@
   {
     "id": 2386,
     "name": "Roh Kegelapan Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2386.png",
+    "image": "monster_icons/2386.png",
     "formName": "",
     "level": 13,
     "regionNames": [
@@ -1700,14 +1700,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2390,
     "name": "Pemanah Manusia Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2390.png",
+    "image": "monster_icons/2390.png",
     "formName": "",
     "level": 13,
     "regionNames": [
@@ -1716,14 +1716,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2395,
     "name": "Arachne Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2395.png",
+    "image": "monster_icons/2395.png",
     "formName": "",
     "level": 13,
     "regionNames": [
@@ -1732,14 +1732,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2398,
     "name": "Pemanah Orc Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2398.png",
+    "image": "monster_icons/2398.png",
     "formName": "",
     "level": 13,
     "regionNames": [
@@ -1748,14 +1748,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2402,
     "name": "Panggilan Spirit",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2402.png",
+    "image": "monster_icons/2402.png",
     "formName": "",
     "level": 13,
     "regionNames": [
@@ -1764,12 +1764,12 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 17,
     "name": "Shelob",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/17.png",
+    "image": "monster_icons/17.png",
     "formName": "",
     "level": 14,
     "regionNames": [
@@ -1789,7 +1789,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Tongkat Kayu Pinus",
       "Buku Sihir (Slow)",
       "Ramuan Hijau",
@@ -1804,7 +1804,7 @@
   {
     "id": 116,
     "name": "Pengintai Orc",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/116.png",
+    "image": "monster_icons/116.png",
     "formName": "",
     "level": 14,
     "regionNames": [
@@ -1813,7 +1813,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena",
       "Lentera"
     ]
@@ -1821,7 +1821,7 @@
   {
     "id": 323,
     "name": "Hobgoblin",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/323.png",
+    "image": "monster_icons/323.png",
     "formName": "",
     "level": 14,
     "regionNames": [
@@ -1835,7 +1835,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Lampu Minyak",
       "Ramuan Hijau",
       "Adena",
@@ -1848,7 +1848,7 @@
   {
     "id": 91,
     "name": "Orc Atuba",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/91.png",
+    "image": "monster_icons/91.png",
     "formName": "",
     "level": 15,
     "regionNames": [
@@ -1858,7 +1858,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Pedang Damaskus",
       "Adena",
@@ -1876,7 +1876,7 @@
   {
     "id": 93,
     "name": "Orc Duda-Mara",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/93.png",
+    "image": "monster_icons/93.png",
     "formName": "",
     "level": 15,
     "regionNames": [
@@ -1886,7 +1886,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ruby Kualitas Tinggi",
       "Ramuan Hijau",
       "Totem Duda-Mara",
@@ -1904,7 +1904,7 @@
   {
     "id": 149,
     "name": "Orc Atuba",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/149.png",
+    "image": "monster_icons/149.png",
     "formName": "",
     "level": 15,
     "regionNames": [
@@ -1916,7 +1916,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Pedang Damaskus",
       "Ramuan Hijau",
       "Bola Roh",
@@ -1932,7 +1932,7 @@
   {
     "id": 151,
     "name": "Orc Duda-Mara",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/151.png",
+    "image": "monster_icons/151.png",
     "formName": "",
     "level": 15,
     "regionNames": [
@@ -1944,7 +1944,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ruby Kualitas Tinggi",
       "Ramuan Hijau",
       "Bola Roh",
@@ -1959,7 +1959,7 @@
   {
     "id": 298,
     "name": "Owlbear",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/298.png",
+    "image": "monster_icons/298.png",
     "formName": "",
     "level": 15,
     "regionNames": [
@@ -1976,7 +1976,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Kulit Kualitas Tinggi",
       "Adena"
@@ -1985,7 +1985,7 @@
   {
     "id": 331,
     "name": "Lizard Man",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/331.png",
+    "image": "monster_icons/331.png",
     "formName": "",
     "level": 15,
     "regionNames": [
@@ -1999,7 +1999,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Teleport",
       "Ramuan Hijau",
       "Adena",
@@ -2013,7 +2013,7 @@
   {
     "id": 506,
     "name": "Manusia Gua",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/506.png",
+    "image": "monster_icons/506.png",
     "formName": "",
     "level": 15,
     "regionNames": [
@@ -2022,7 +2022,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Zirah Sisik (Scale Armor)",
       "Kapak Besar",
       "Adena",
@@ -2033,7 +2033,7 @@
   {
     "id": 568,
     "name": "Manusia Gua",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/568.png",
+    "image": "monster_icons/568.png",
     "formName": "",
     "level": 15,
     "regionNames": [
@@ -2043,7 +2043,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Zirah Sisik (Scale Armor)",
       "Kapak Besar",
       "Adena",
@@ -2054,7 +2054,7 @@
   {
     "id": 15,
     "name": "Kesatria Hitam",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/15.png",
+    "image": "monster_icons/15.png",
     "formName": "",
     "level": 16,
     "regionNames": [
@@ -2065,7 +2065,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Emerald",
       "Tombak Kavaleri (Lance) Diberkati",
       "Safir",
@@ -2091,7 +2091,7 @@
   {
     "id": 28,
     "name": "Ghoul",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/28.png",
+    "image": "monster_icons/28.png",
     "formName": "Undead",
     "level": 16,
     "regionNames": [
@@ -2120,7 +2120,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Cakar Ghoul",
       "Gulungan Kebangkitan (Resurrection)",
       "Adena",
@@ -2133,7 +2133,7 @@
   {
     "id": 30,
     "name": "Spartoi",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/30.png",
+    "image": "monster_icons/30.png",
     "formName": "Undead",
     "level": 16,
     "regionNames": [
@@ -2162,7 +2162,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Adena",
       "Guandao (Pedang Bulan Sabit)",
@@ -2178,7 +2178,7 @@
   {
     "id": 504,
     "name": "Crab Man",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/504.png",
+    "image": "monster_icons/504.png",
     "formName": "",
     "level": 16,
     "regionNames": [
@@ -2189,7 +2189,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Weapon Break)",
       "Adena",
       "Gulungan Sihir Zirah",
@@ -2200,7 +2200,7 @@
   {
     "id": 511,
     "name": "Merman",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/511.png",
+    "image": "monster_icons/511.png",
     "formName": "",
     "level": 16,
     "regionNames": [
@@ -2209,7 +2209,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena",
       "Potongan Dokumen Investigasi Robek (3)"
     ]
@@ -2217,7 +2217,7 @@
   {
     "id": 518,
     "name": "Hiu",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/518.png",
+    "image": "monster_icons/518.png",
     "formName": "",
     "level": 16,
     "regionNames": [
@@ -2226,7 +2226,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Safir Kualitas Tinggi",
       "Sabuk Jiwa Lusuh",
       "Safir Kualitas Terbaik",
@@ -2240,7 +2240,7 @@
   {
     "id": 750,
     "name": "Pasukan Pencari Kesatria Hitam",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/750.png",
+    "image": "monster_icons/750.png",
     "formName": "",
     "level": 16,
     "regionNames": [
@@ -2250,7 +2250,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Emerald",
       "Tombak Kavaleri (Lance) Diberkati",
       "Safir",
@@ -2275,7 +2275,7 @@
   {
     "id": 2392,
     "name": "Pemanah Peri Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2392.png",
+    "image": "monster_icons/2392.png",
     "formName": "",
     "level": 16,
     "regionNames": [
@@ -2284,14 +2284,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2400,
     "name": "Prajurit Tombak Orc Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2400.png",
+    "image": "monster_icons/2400.png",
     "formName": "",
     "level": 16,
     "regionNames": [
@@ -2300,14 +2300,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 2401,
     "name": "Roh Agung Cahaya Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2401.png",
+    "image": "monster_icons/2401.png",
     "formName": "",
     "level": 16,
     "regionNames": [
@@ -2316,14 +2316,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 92,
     "name": "Orc Neruga",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/92.png",
+    "image": "monster_icons/92.png",
     "formName": "",
     "level": 17,
     "regionNames": [
@@ -2333,7 +2333,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gladius Terkutuk",
       "Ramuan Hijau",
       "Perisai Urukhai",
@@ -2352,7 +2352,7 @@
   {
     "id": 150,
     "name": "Orc Neruga",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/150.png",
+    "image": "monster_icons/150.png",
     "formName": "",
     "level": 17,
     "regionNames": [
@@ -2364,7 +2364,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Pedang Damaskus",
       "Gladius Terkutuk",
       "Ramuan Hijau",
@@ -2381,7 +2381,7 @@
   {
     "id": 280,
     "name": "Lycanthrope",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/280.png",
+    "image": "monster_icons/280.png",
     "formName": "",
     "level": 17,
     "regionNames": [
@@ -2400,7 +2400,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Slow)",
       "Adena",
       "Kapak Tempur",
@@ -2418,7 +2418,7 @@
   {
     "id": 10001,
     "name": "Roh Agung Angin Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10001.png",
+    "image": "monster_icons/10001.png",
     "formName": "",
     "level": 17,
     "regionNames": [
@@ -2427,14 +2427,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10006,
     "name": "Orc Gandhi Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10006.png",
+    "image": "monster_icons/10006.png",
     "formName": "",
     "level": 17,
     "regionNames": [
@@ -2443,14 +2443,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10014,
     "name": "Fairy Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10014.png",
+    "image": "monster_icons/10014.png",
     "formName": "",
     "level": 17,
     "regionNames": [
@@ -2459,14 +2459,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10015,
     "name": "Petarung Tinju Manusia Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10015.png",
+    "image": "monster_icons/10015.png",
     "formName": "",
     "level": 17,
     "regionNames": [
@@ -2475,14 +2475,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 31,
     "name": "Ungoliant",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/31.png",
+    "image": "monster_icons/31.png",
     "formName": "",
     "level": 18,
     "regionNames": [
@@ -2504,7 +2504,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Taming Monster)",
       "Buku Sihir (Slow)",
       "Ramuan Hijau",
@@ -2521,7 +2521,7 @@
   {
     "id": 560,
     "name": "Doppelganger",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/560.png",
+    "image": "monster_icons/560.png",
     "formName": "",
     "level": 19,
     "regionNames": [
@@ -2531,7 +2531,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Transformasi",
       "Adena",
       "Ramuan Biru"
@@ -2540,7 +2540,7 @@
   {
     "id": 236,
     "name": "Semut Tentara Raksasa",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/236.png",
+    "image": "monster_icons/236.png",
     "formName": "",
     "level": 20,
     "regionNames": [
@@ -2559,7 +2559,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ruby Kualitas Tinggi",
       "Ramuan Keberanian",
       "Emerald Kualitas Terbaik",
@@ -2577,7 +2577,7 @@
   {
     "id": 505,
     "name": "Rat Man",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/505.png",
+    "image": "monster_icons/505.png",
     "formName": "",
     "level": 20,
     "regionNames": [
@@ -2588,7 +2588,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Zirah Sisik (Scale Armor)",
       "Ramuan Hijau",
       "Adena",
@@ -2601,7 +2601,7 @@
   {
     "id": 519,
     "name": "Aste",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/519.png",
+    "image": "monster_icons/519.png",
     "formName": "",
     "level": 20,
     "regionNames": [
@@ -2610,7 +2610,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Ramuan Hijau",
       "Adena",
@@ -2622,7 +2622,7 @@
   {
     "id": 10002,
     "name": "Roh Agung Air Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10002.png",
+    "image": "monster_icons/10002.png",
     "formName": "",
     "level": 20,
     "regionNames": [
@@ -2631,14 +2631,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10009,
     "name": "Pemanah Orc Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10009.png",
+    "image": "monster_icons/10009.png",
     "formName": "",
     "level": 20,
     "regionNames": [
@@ -2647,14 +2647,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10010,
     "name": "Pemanah Peri Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10010.png",
+    "image": "monster_icons/10010.png",
     "formName": "",
     "level": 20,
     "regionNames": [
@@ -2663,14 +2663,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10017,
     "name": "Pemanah Manusia Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10017.png",
+    "image": "monster_icons/10017.png",
     "formName": "",
     "level": 20,
     "regionNames": [
@@ -2679,14 +2679,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 7,
     "name": "Sesepuh",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/7.png",
+    "image": "monster_icons/7.png",
     "formName": "",
     "level": 21,
     "regionNames": [
@@ -2702,7 +2702,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Tongkat Kayu Pinus",
       "Buku Sihir (Call Lightning)",
       "Batu Kekuatan Sihir",
@@ -2721,7 +2721,7 @@
   {
     "id": 115,
     "name": "Gast",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/115.png",
+    "image": "monster_icons/115.png",
     "formName": "",
     "level": 21,
     "regionNames": [
@@ -2737,7 +2737,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Emerald",
       "Kapak Besar",
       "Kapak Tempur",
@@ -2751,7 +2751,7 @@
   {
     "id": 33,
     "name": "Bugbear",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/33.png",
+    "image": "monster_icons/33.png",
     "formName": "",
     "level": 22,
     "regionNames": [
@@ -2773,7 +2773,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Weapon Break)",
       "Zirah Sisik (Scale Armor)",
       "Buku Sihir (Sun Burst)",
@@ -2791,7 +2791,7 @@
   {
     "id": 562,
     "name": "Lamia",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/562.png",
+    "image": "monster_icons/562.png",
     "formName": "",
     "level": 22,
     "regionNames": [
@@ -2805,7 +2805,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Weapon Break)",
       "Adena",
       "Sisik Berkilau",
@@ -2816,7 +2816,7 @@
   {
     "id": 563,
     "name": "Lamia",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/563.png",
+    "image": "monster_icons/563.png",
     "formName": "",
     "level": 22,
     "regionNames": [
@@ -2830,7 +2830,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Weapon Break)",
       "Adena",
       "Sisik Berkilau",
@@ -2841,7 +2841,7 @@
   {
     "id": 10000,
     "name": "Roh Agung Cahaya Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10000.png",
+    "image": "monster_icons/10000.png",
     "formName": "",
     "level": 22,
     "regionNames": [
@@ -2850,14 +2850,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10005,
     "name": "Orc Duda-Mara Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10005.png",
+    "image": "monster_icons/10005.png",
     "formName": "",
     "level": 22,
     "regionNames": [
@@ -2866,14 +2866,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10011,
     "name": "Mandrake Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10011.png",
+    "image": "monster_icons/10011.png",
     "formName": "",
     "level": 22,
     "regionNames": [
@@ -2882,14 +2882,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10016,
     "name": "Pencuri Manusia Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10016.png",
+    "image": "monster_icons/10016.png",
     "formName": "",
     "level": 22,
     "regionNames": [
@@ -2898,14 +2898,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 182,
     "name": "Cerberus",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/182.png",
+    "image": "monster_icons/182.png",
     "formName": "",
     "level": 24,
     "regionNames": [
@@ -2921,7 +2921,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Weapon Break)",
       "Ruby Kualitas Tinggi",
       "Ramuan Keberanian",
@@ -2939,7 +2939,7 @@
   {
     "id": 503,
     "name": "Sea Dancer",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/503.png",
+    "image": "monster_icons/503.png",
     "formName": "",
     "level": 24,
     "regionNames": [
@@ -2948,7 +2948,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Ice Lance)",
       "Kristal Roh (Nature's Blessing)",
       "Safir Kualitas Tinggi",
@@ -2964,7 +2964,7 @@
   {
     "id": 520,
     "name": "Turtle Dragon",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/520.png",
+    "image": "monster_icons/520.png",
     "formName": "",
     "level": 24,
     "regionNames": [
@@ -2974,7 +2974,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Adena",
       "Buku Sihir (Cone of Cold)",
@@ -2986,7 +2986,7 @@
   {
     "id": 246,
     "name": "Kalajengking (Scorpion)",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/246.png",
+    "image": "monster_icons/246.png",
     "formName": "",
     "level": 26,
     "regionNames": [
@@ -2996,7 +2996,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Helm Sihir: Kecepatan",
       "Ramuan Keberanian",
       "Buku Sihir (Call Lightning)",
@@ -3012,7 +3012,7 @@
   {
     "id": 252,
     "name": "Harpy",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/252.png",
+    "image": "monster_icons/252.png",
     "formName": "",
     "level": 26,
     "regionNames": [
@@ -3024,7 +3024,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena",
       "Batu Kekuatan Sihir",
       "Bola Roh",
@@ -3041,12 +3041,12 @@
   {
     "id": 567,
     "name": "Turtle Dragon",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/567.png",
+    "image": "monster_icons/567.png",
     "formName": "",
     "level": 26,
     "regionNames": [],
     "groups": [],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Adena",
       "Buku Sihir (Cone of Cold)",
@@ -3057,7 +3057,7 @@
   {
     "id": 10003,
     "name": "Roh Agung Tanah Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10003.png",
+    "image": "monster_icons/10003.png",
     "formName": "",
     "level": 26,
     "regionNames": [
@@ -3066,14 +3066,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10007,
     "name": "Penyihir Orc Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10007.png",
+    "image": "monster_icons/10007.png",
     "formName": "",
     "level": 26,
     "regionNames": [
@@ -3082,14 +3082,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10012,
     "name": "Penyihir Peri Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10012.png",
+    "image": "monster_icons/10012.png",
     "formName": "",
     "level": 26,
     "regionNames": [
@@ -3098,14 +3098,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10019,
     "name": "Penyihir Manusia Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10019.png",
+    "image": "monster_icons/10019.png",
     "formName": "",
     "level": 26,
     "regionNames": [
@@ -3114,14 +3114,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10021,
     "name": "Panggilan Spirit Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10021.png",
+    "image": "monster_icons/10021.png",
     "formName": "",
     "level": 26,
     "regionNames": [
@@ -3130,12 +3130,12 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": []
+    "rewardNames": []
   },
   {
     "id": 288,
     "name": "Kerangka Penembak Jitu",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/288.png",
+    "image": "monster_icons/288.png",
     "formName": "Undead",
     "level": 27,
     "regionNames": [
@@ -3150,7 +3150,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Jubah Sihir Diberkati",
       "Panah Diberkati",
       "Buku Sihir (Taming Monster)",
@@ -3168,7 +3168,7 @@
   {
     "id": 290,
     "name": "Kerangka Penjaga Kerajaan",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/290.png",
+    "image": "monster_icons/290.png",
     "formName": "Undead",
     "level": 27,
     "regionNames": [
@@ -3183,7 +3183,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Jubah Sihir Diberkati",
       "Buku Sihir (Taming Monster)",
       "Ramuan Hijau",
@@ -3199,7 +3199,7 @@
   {
     "id": 297,
     "name": "Dark Elf",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/297.png",
+    "image": "monster_icons/297.png",
     "formName": "",
     "level": 27,
     "regionNames": [
@@ -3213,7 +3213,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Tornado)",
       "Buku Sihir (Meditation)",
       "Jubah Bangsa Peri",
@@ -3231,7 +3231,7 @@
   {
     "id": 223,
     "name": "Ogre",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/223.png",
+    "image": "monster_icons/223.png",
     "formName": "",
     "level": 28,
     "regionNames": [
@@ -3244,7 +3244,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Zirah Sisik (Scale Armor)",
       "Ramuan Keberanian",
       "Sabuk Ogre",
@@ -3261,7 +3261,7 @@
   {
     "id": 279,
     "name": "Troll",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/279.png",
+    "image": "monster_icons/279.png",
     "formName": "",
     "level": 28,
     "regionNames": [
@@ -3273,7 +3273,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Zirah Sisik (Scale Armor)",
       "Kapak Besar",
@@ -3289,7 +3289,7 @@
   {
     "id": 464,
     "name": "Paper Man",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/464.png",
+    "image": "monster_icons/464.png",
     "formName": "",
     "level": 28,
     "regionNames": [
@@ -3299,7 +3299,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Teleport",
       "Gulungan Kembali (Return Scroll)",
       "Gulungan Transformasi",
@@ -3310,7 +3310,7 @@
   {
     "id": 507,
     "name": "Ekekadum",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/507.png",
+    "image": "monster_icons/507.png",
     "formName": "",
     "level": 28,
     "regionNames": [
@@ -3319,7 +3319,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Sabuk Tubuh Lusuh",
       "Berlian Kualitas Terbaik",
       "Buku Sihir (Call Lightning)",
@@ -3340,7 +3340,7 @@
   {
     "id": 701,
     "name": "Manusia Salju",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/701.png",
+    "image": "monster_icons/701.png",
     "formName": "",
     "level": 28,
     "regionNames": [
@@ -3355,7 +3355,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Transformasi",
       "Adena",
       "Kristal Roh (Return to Nature)",
@@ -3366,7 +3366,7 @@
   {
     "id": 735,
     "name": "Paper Man",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/735.png",
+    "image": "monster_icons/735.png",
     "formName": "",
     "level": 28,
     "regionNames": [
@@ -3376,7 +3376,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Teleport",
       "Gulungan Kembali (Return Scroll)",
       "Gulungan Transformasi",
@@ -3387,7 +3387,7 @@
   {
     "id": 879,
     "name": "Bandit",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/879.png",
+    "image": "monster_icons/879.png",
     "formName": "",
     "level": 28,
     "regionNames": [
@@ -3397,7 +3397,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Morning Star",
       "Ramuan Merah",
       "Kalung Curian",
@@ -3414,7 +3414,7 @@
   {
     "id": 289,
     "name": "Kerangka Prajurit Penyerbu",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/289.png",
+    "image": "monster_icons/289.png",
     "formName": "Undead",
     "level": 29,
     "regionNames": [
@@ -3429,7 +3429,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Jubah Sihir Diberkati",
       "Ramuan Hijau",
       "Helm Diberkati",
@@ -3447,7 +3447,7 @@
   {
     "id": 513,
     "name": "Crustacean",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/513.png",
+    "image": "monster_icons/513.png",
     "formName": "",
     "level": 29,
     "regionNames": [
@@ -3456,7 +3456,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Berlian Kualitas Terbaik",
       "Buku Sihir (Weakness)",
@@ -3471,7 +3471,7 @@
   {
     "id": 592,
     "name": "Bunga Bom",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/592.png",
+    "image": "monster_icons/592.png",
     "formName": "",
     "level": 29,
     "regionNames": [
@@ -3481,7 +3481,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Fog of Sleeping)",
       "Adena",
       "Gulungan Teleport Diberkati"
@@ -3490,7 +3490,7 @@
   {
     "id": 212,
     "name": "King Bugbear",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/212.png",
+    "image": "monster_icons/212.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3503,7 +3503,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ruby Kualitas Tinggi",
       "Buku Sihir (Fireball)",
       "Kapak Tempur",
@@ -3527,7 +3527,7 @@
   {
     "id": 281,
     "name": "Mulian",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/281.png",
+    "image": "monster_icons/281.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3539,7 +3539,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Kembali (Return Scroll)",
       "Gulungan Transformasi",
       "Buku Sihir (Slow)",
@@ -3557,7 +3557,7 @@
   {
     "id": 708,
     "name": "Prajurit Zombie Elmore",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/708.png",
+    "image": "monster_icons/708.png",
     "formName": "Undead",
     "level": 30,
     "regionNames": [
@@ -3571,7 +3571,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Tombak Lebar",
       "Sepatu Bot Pendek",
       "Ramuan Keberanian",
@@ -3587,7 +3587,7 @@
   {
     "id": 709,
     "name": "Ice Man",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/709.png",
+    "image": "monster_icons/709.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3601,7 +3601,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Adena",
       "Kapak Tempur",
@@ -3614,7 +3614,7 @@
   {
     "id": 882,
     "name": "Bandit",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/882.png",
+    "image": "monster_icons/882.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3624,7 +3624,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Helm Kulit",
       "Ramuan Hijau",
       "Panah Pemburu",
@@ -3643,7 +3643,7 @@
   {
     "id": 915,
     "name": "Fungus",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/915.png",
+    "image": "monster_icons/915.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3652,7 +3652,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Adena",
       "Ramuan Biru",
@@ -3663,7 +3663,7 @@
   {
     "id": 916,
     "name": "Roh Mimpi",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/916.png",
+    "image": "monster_icons/916.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3672,7 +3672,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Teleport",
       "Gulungan Transformasi",
       "Gulungan Kembali (Return Scroll)",
@@ -3685,7 +3685,7 @@
   {
     "id": 2403,
     "name": "Spirit",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/2403.png",
+    "image": "monster_icons/2403.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3694,14 +3694,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10004,
     "name": "Roh Agung Kegelapan Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10004.png",
+    "image": "monster_icons/10004.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3710,14 +3710,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10008,
     "name": "Petarung Orc Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10008.png",
+    "image": "monster_icons/10008.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3726,14 +3726,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10013,
     "name": "Pendekar Pedang Peri Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10013.png",
+    "image": "monster_icons/10013.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3742,14 +3742,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 10018,
     "name": "Petarung Manusia Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10018.png",
+    "image": "monster_icons/10018.png",
     "formName": "",
     "level": 30,
     "regionNames": [
@@ -3758,14 +3758,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 333,
     "name": "Griffin",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/333.png",
+    "image": "monster_icons/333.png",
     "formName": "",
     "level": 31,
     "regionNames": [
@@ -3775,7 +3775,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ruby Kualitas Tinggi",
       "Buku Sihir (Tornado)",
       "Buku Sihir (Counter Magic)",
@@ -3795,7 +3795,7 @@
   {
     "id": 460,
     "name": "Mimic",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/460.png",
+    "image": "monster_icons/460.png",
     "formName": "",
     "level": 31,
     "regionNames": [
@@ -3805,7 +3805,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Ramuan Hijau",
       "Adena",
@@ -3819,7 +3819,7 @@
   {
     "id": 703,
     "name": "Penyihir Zombie Elmore",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/703.png",
+    "image": "monster_icons/703.png",
     "formName": "Undead",
     "level": 31,
     "regionNames": [
@@ -3833,7 +3833,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena",
       "Kalung Pengetahuan Lusuh",
       "Ramuan Biru",
@@ -3848,7 +3848,7 @@
   {
     "id": 881,
     "name": "Bandit",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/881.png",
+    "image": "monster_icons/881.png",
     "formName": "",
     "level": 31,
     "regionNames": [
@@ -3858,7 +3858,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Merah",
       "Kalung Curian",
       "Kapak Besar",
@@ -3876,55 +3876,55 @@
   {
     "id": 10125,
     "name": "Roh Air Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10125.png",
+    "image": "monster_icons/10125.png",
     "formName": "",
     "level": 31,
     "regionNames": [],
     "groups": [],
-    "rewordNames": [
+    "rewardNames": [
       "Kristal Roh Tercemar (Air)"
     ]
   },
   {
     "id": 10126,
     "name": "Roh Api Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10126.png",
+    "image": "monster_icons/10126.png",
     "formName": "",
     "level": 31,
     "regionNames": [],
     "groups": [],
-    "rewordNames": [
+    "rewardNames": [
       "Kristal Roh Tercemar (Api)"
     ]
   },
   {
     "id": 10127,
     "name": "Roh Tanah Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10127.png",
+    "image": "monster_icons/10127.png",
     "formName": "",
     "level": 31,
     "regionNames": [],
     "groups": [],
-    "rewordNames": [
+    "rewardNames": [
       "Kristal Roh Tercemar (Tanah)"
     ]
   },
   {
     "id": 10128,
     "name": "Roh Angin Tercemar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10128.png",
+    "image": "monster_icons/10128.png",
     "formName": "",
     "level": 31,
     "regionNames": [],
     "groups": [],
-    "rewordNames": [
+    "rewardNames": [
       "Kristal Roh Tercemar (Angin)"
     ]
   },
   {
     "id": 463,
     "name": "Ice Golem",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/463.png",
+    "image": "monster_icons/463.png",
     "formName": "",
     "level": 32,
     "regionNames": [
@@ -3939,7 +3939,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Sarung Tangan Kristal",
       "Buku Sihir (Ice Lance)",
       "Ramuan Keberanian",
@@ -3955,7 +3955,7 @@
   {
     "id": 471,
     "name": "Crocodile",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/471.png",
+    "image": "monster_icons/471.png",
     "formName": "",
     "level": 32,
     "regionNames": [
@@ -3965,7 +3965,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Emerald",
       "Buku Sihir (Call Lightning)",
@@ -3976,7 +3976,7 @@
   {
     "id": 880,
     "name": "Bandit",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/880.png",
+    "image": "monster_icons/880.png",
     "formName": "",
     "level": 32,
     "regionNames": [
@@ -3986,7 +3986,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Merah",
       "Pedang Damaskus",
       "Kalung Curian",
@@ -4003,7 +4003,7 @@
   {
     "id": 129,
     "name": "Gast Lord",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/129.png",
+    "image": "monster_icons/129.png",
     "formName": "",
     "level": 33,
     "regionNames": [
@@ -4014,7 +4014,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Emerald Kualitas Terbaik",
       "Kapak Besar",
       "Kapak Tempur",
@@ -4032,7 +4032,7 @@
   {
     "id": 286,
     "name": "Beholder",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/286.png",
+    "image": "monster_icons/286.png",
     "formName": "",
     "level": 33,
     "regionNames": [
@@ -4045,7 +4045,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Safir Kualitas Tinggi",
       "Safir Kualitas Terbaik",
       "Gulungan Sihir Senjata Terkutuk",
@@ -4063,7 +4063,7 @@
   {
     "id": 473,
     "name": "Living Armor",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/473.png",
+    "image": "monster_icons/473.png",
     "formName": "",
     "level": 33,
     "regionNames": [
@@ -4073,7 +4073,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Merah",
       "Ramuan Keberanian",
       "Esensi Cahaya Bulan",
@@ -4091,7 +4091,7 @@
   {
     "id": 595,
     "name": "Capung Naga (Dragon Fly)",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/595.png",
+    "image": "monster_icons/595.png",
     "formName": "",
     "level": 33,
     "regionNames": [
@@ -4101,7 +4101,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Teleport",
       "Ramuan Hijau",
       "Adena",
@@ -4115,7 +4115,7 @@
   {
     "id": 702,
     "name": "Harimau Sabertooth",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/702.png",
+    "image": "monster_icons/702.png",
     "formName": "",
     "level": 33,
     "regionNames": [
@@ -4131,7 +4131,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Adena",
       "Batu Kekuatan Sihir",
@@ -4142,7 +4142,7 @@
   {
     "id": 704,
     "name": "Eti",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/704.png",
+    "image": "monster_icons/704.png",
     "formName": "",
     "level": 33,
     "regionNames": [
@@ -4158,7 +4158,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Sarung Tangan Kristal",
       "Ramuan Keberanian",
       "Lucerne Hammer",
@@ -4170,7 +4170,7 @@
   {
     "id": 884,
     "name": "Doppelganger",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/884.png",
+    "image": "monster_icons/884.png",
     "formName": "",
     "level": 33,
     "regionNames": [
@@ -4180,7 +4180,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Transformasi",
       "Adena",
       "Ramuan Biru"
@@ -4189,7 +4189,7 @@
   {
     "id": 248,
     "name": "Cockatrice",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/248.png",
+    "image": "monster_icons/248.png",
     "formName": "",
     "level": 34,
     "regionNames": [
@@ -4199,7 +4199,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Kristal Roh (Entangle)",
       "Buku Sihir (Slow)",
       "Ramuan Hijau",
@@ -4224,7 +4224,7 @@
   {
     "id": 287,
     "name": "Ettin",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/287.png",
+    "image": "monster_icons/287.png",
     "formName": "",
     "level": 35,
     "regionNames": [
@@ -4236,7 +4236,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Kalung Karisma Lusuh",
       "Lucerne Hammer Diberkati",
@@ -4251,7 +4251,7 @@
   {
     "id": 587,
     "name": "Petarung Terbakar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/587.png",
+    "image": "monster_icons/587.png",
     "formName": "",
     "level": 35,
     "regionNames": [
@@ -4261,7 +4261,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Keberanian",
       "Pedang Panjang",
       "Ramuan Hijau",
@@ -4277,7 +4277,7 @@
   {
     "id": 705,
     "name": "Jenderal Zombie Elmore",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/705.png",
+    "image": "monster_icons/705.png",
     "formName": "Undead",
     "level": 35,
     "regionNames": [
@@ -4290,7 +4290,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Zirah Sisik",
       "Buku Skill (Shock Stun)",
@@ -4311,7 +4311,7 @@
   {
     "id": 707,
     "name": "Iron Golem",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/707.png",
+    "image": "monster_icons/707.png",
     "formName": "",
     "level": 35,
     "regionNames": [
@@ -4327,7 +4327,7 @@
       "Dungeon",
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Weakness)",
       "Ramuan Biru",
       "Potongan Dokumen Investigasi Robek (2)",
@@ -4347,7 +4347,7 @@
   {
     "id": 883,
     "name": "Bos Bandit",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/883.png",
+    "image": "monster_icons/883.png",
     "formName": "",
     "level": 35,
     "regionNames": [
@@ -4357,7 +4357,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ruby Kualitas Tinggi",
       "Emerald Kualitas Terbaik",
       "Berlian Kualitas Terbaik",
@@ -4383,7 +4383,7 @@
   {
     "id": 247,
     "name": "Basilisk",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/247.png",
+    "image": "monster_icons/247.png",
     "formName": "",
     "level": 36,
     "regionNames": [
@@ -4392,7 +4392,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Slow)",
       "Berlian Kualitas Terbaik",
       "Buku Sihir (Cancellation)",
@@ -4413,7 +4413,7 @@
   {
     "id": 593,
     "name": "Pemanah Terbakar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/593.png",
+    "image": "monster_icons/593.png",
     "formName": "",
     "level": 36,
     "regionNames": [
@@ -4423,7 +4423,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Kalung Kecekatan Lusuh",
       "Buku Sihir (Slow)",
       "Adena",
@@ -4438,7 +4438,7 @@
   {
     "id": 284,
     "name": "Succubus",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/284.png",
+    "image": "monster_icons/284.png",
     "formName": "",
     "level": 37,
     "regionNames": [
@@ -4449,7 +4449,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Ice Lance)",
       "Cincin Kendali Transformasi",
       "Buku Sihir (Blizzard)",
@@ -4467,7 +4467,7 @@
   {
     "id": 534,
     "name": "Salamander",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/534.png",
+    "image": "monster_icons/534.png",
     "formName": "",
     "level": 38,
     "regionNames": [
@@ -4477,7 +4477,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Fire Storm)",
       "Ruby Kualitas Tinggi",
       "Ramuan Hijau",
@@ -4494,7 +4494,7 @@
   {
     "id": 903,
     "name": "Salamander",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/903.png",
+    "image": "monster_icons/903.png",
     "formName": "",
     "level": 38,
     "regionNames": [
@@ -4503,7 +4503,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Fire Storm)",
       "Kapak Besar",
       "Adena",
@@ -4515,7 +4515,7 @@
   {
     "id": 905,
     "name": "Ice Man",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/905.png",
+    "image": "monster_icons/905.png",
     "formName": "",
     "level": 38,
     "regionNames": [
@@ -4524,7 +4524,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Adena",
       "Kalung Pengetahuan Lusuh",
@@ -4536,7 +4536,7 @@
   {
     "id": 908,
     "name": "Lebah Pembunuh (Killer Bee)",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/908.png",
+    "image": "monster_icons/908.png",
     "formName": "",
     "level": 38,
     "regionNames": [
@@ -4545,7 +4545,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Kalung Kecekatan Lusuh",
       "Adena",
       "Gulungan Sihir Zirah",
@@ -4555,7 +4555,7 @@
   {
     "id": 911,
     "name": "Kelinci Berdarah Panas",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/911.png",
+    "image": "monster_icons/911.png",
     "formName": "",
     "level": 38,
     "regionNames": [
@@ -4564,7 +4564,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena",
       "Gulungan Sihir Zirah",
       "Gulungan Sihir Senjata"
@@ -4573,7 +4573,7 @@
   {
     "id": 591,
     "name": "Telur Api",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/591.png",
+    "image": "monster_icons/591.png",
     "formName": "",
     "level": 39,
     "regionNames": [
@@ -4584,7 +4584,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Transformasi",
       "Gulungan Kembali (Return Scroll)",
       "Buku Sihir (Fireball)",
@@ -4600,7 +4600,7 @@
   {
     "id": 902,
     "name": "Telur Api",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/902.png",
+    "image": "monster_icons/902.png",
     "formName": "",
     "level": 39,
     "regionNames": [
@@ -4609,7 +4609,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Teleport",
       "Gulungan Transformasi",
       "Gulungan Kembali (Return Scroll)",
@@ -4623,7 +4623,7 @@
   {
     "id": 906,
     "name": "Ice Golem",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/906.png",
+    "image": "monster_icons/906.png",
     "formName": "",
     "level": 39,
     "regionNames": [
@@ -4632,7 +4632,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Kebangkitan (Resurrection)",
       "Adena",
       "Gulungan Sihir Zirah",
@@ -4644,7 +4644,7 @@
   {
     "id": 909,
     "name": "Bola Petir (Ball Lightning)",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/909.png",
+    "image": "monster_icons/909.png",
     "formName": "",
     "level": 39,
     "regionNames": [
@@ -4653,7 +4653,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena",
       "Gulungan Sihir Zirah",
       "Buku Sihir (Lightning Storm)",
@@ -4664,7 +4664,7 @@
   {
     "id": 912,
     "name": "Guardian Armor",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/912.png",
+    "image": "monster_icons/912.png",
     "formName": "",
     "level": 39,
     "regionNames": [
@@ -4673,7 +4673,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Adena",
       "Kalung Stamina Lusuh",
@@ -4686,7 +4686,7 @@
   {
     "id": 325,
     "name": "Cyclops",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/325.png",
+    "image": "monster_icons/325.png",
     "formName": "",
     "level": 40,
     "regionNames": [
@@ -4696,7 +4696,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Kristal Roh (Entangle)",
       "Darah Cyclops",
       "Buku Sihir (Weakness)",
@@ -4716,12 +4716,12 @@
   {
     "id": 913,
     "name": "Nightmare",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/913.png",
+    "image": "monster_icons/913.png",
     "formName": "",
     "level": 40,
     "regionNames": [],
     "groups": [],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Adena",
       "Kristal Roh (Triple Arrow)",
@@ -4735,7 +4735,7 @@
   {
     "id": 921,
     "name": "Roh Mimpi",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/921.png",
+    "image": "monster_icons/921.png",
     "formName": "",
     "level": 40,
     "regionNames": [
@@ -4744,7 +4744,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Gulungan Teleport",
       "Gulungan Transformasi",
       "Gulungan Kembali (Return Scroll)",
@@ -4757,7 +4757,7 @@
   {
     "id": 285,
     "name": "Succubus Queen",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/285.png",
+    "image": "monster_icons/285.png",
     "formName": "",
     "level": 41,
     "regionNames": [
@@ -4767,7 +4767,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Ice Lance)",
       "Buku Sihir (Mass Teleport)",
       "Kristal Roh (Nature's Touch)",
@@ -4783,7 +4783,7 @@
   {
     "id": 469,
     "name": "Siluet",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/469.png",
+    "image": "monster_icons/469.png",
     "formName": "Undead",
     "level": 41,
     "regionNames": [
@@ -4794,7 +4794,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Merah",
       "Buku Sihir (Counter Magic)",
       "Sabuk Jiwa Lusuh",
@@ -4812,7 +4812,7 @@
   {
     "id": 37,
     "name": "Sema",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/37.png",
+    "image": "monster_icons/37.png",
     "formName": "",
     "level": 42,
     "regionNames": [
@@ -4822,7 +4822,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Tongkat Kayu Pinus",
       "Buku Sihir (Weakness)",
       "Berlian Kualitas Terbaik",
@@ -4848,7 +4848,7 @@
   {
     "id": 580,
     "name": "Hantu",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/580.png",
+    "image": "monster_icons/580.png",
     "formName": "Undead",
     "level": 42,
     "regionNames": [
@@ -4859,7 +4859,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Sarung Tangan Kristal",
       "Kristal Roh (Area of Silence)",
       "Buku Sihir (Counter Magic)",
@@ -4881,7 +4881,7 @@
   {
     "id": 10129,
     "name": "Necromancer",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10129.png",
+    "image": "monster_icons/10129.png",
     "formName": "",
     "level": 42,
     "regionNames": [
@@ -4890,7 +4890,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Tongkat Kayu Pinus",
       "Buku Sihir (Weakness)",
       "Berlian Kualitas Terbaik",
@@ -4914,7 +4914,7 @@
   {
     "id": 34,
     "name": "Balthazar",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/34.png",
+    "image": "monster_icons/34.png",
     "formName": "",
     "level": 43,
     "regionNames": [
@@ -4924,7 +4924,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Kristal Roh (Entangle)",
       "Emerald Kualitas Terbaik",
       "Tongkat Kayu Pinus",
@@ -4950,7 +4950,7 @@
   {
     "id": 581,
     "name": "Hantu",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/581.png",
+    "image": "monster_icons/581.png",
     "formName": "Undead",
     "level": 43,
     "regionNames": [
@@ -4961,7 +4961,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Sarung Tangan Kristal",
       "Kristal Roh (Area of Silence)",
       "Ramuan Merah Diberkati",
@@ -4982,7 +4982,7 @@
   {
     "id": 586,
     "name": "Larva Golem",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/586.png",
+    "image": "monster_icons/586.png",
     "formName": "",
     "level": 43,
     "regionNames": [
@@ -4992,7 +4992,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Lucerne Hammer",
       "Ramuan Keberanian",
       "Buku Sihir (Slow)",
@@ -5007,7 +5007,7 @@
   {
     "id": 901,
     "name": "Roh Agung Api",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/901.png",
+    "image": "monster_icons/901.png",
     "formName": "",
     "level": 43,
     "regionNames": [
@@ -5016,7 +5016,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Tanduk Unicorn Suci",
       "Gulungan Kebangkitan (Resurrection)",
       "Ramuan Hijau",
@@ -5032,7 +5032,7 @@
   {
     "id": 904,
     "name": "Roh Agung Air",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/904.png",
+    "image": "monster_icons/904.png",
     "formName": "",
     "level": 43,
     "regionNames": [
@@ -5041,7 +5041,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Elixir (INT)",
       "Tanduk Unicorn Suci",
       "Gulungan Kebangkitan (Resurrection)",
@@ -5057,7 +5057,7 @@
   {
     "id": 907,
     "name": "Roh Agung Angin",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/907.png",
+    "image": "monster_icons/907.png",
     "formName": "",
     "level": 43,
     "regionNames": [
@@ -5066,7 +5066,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Tanduk Unicorn Suci",
       "Gulungan Kebangkitan (Resurrection)",
       "Ramuan Hijau",
@@ -5082,7 +5082,7 @@
   {
     "id": 910,
     "name": "Roh Agung Tanah",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/910.png",
+    "image": "monster_icons/910.png",
     "formName": "",
     "level": 43,
     "regionNames": [
@@ -5091,7 +5091,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Elixir (CON)",
       "Tanduk Unicorn Suci",
       "Gulungan Kebangkitan (Resurrection)",
@@ -5107,7 +5107,7 @@
   {
     "id": 914,
     "name": "Unicorn",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/914.png",
+    "image": "monster_icons/914.png",
     "formName": "",
     "level": 43,
     "regionNames": [
@@ -5116,7 +5116,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Lucerne Hammer",
       "Tanduk Unicorn Suci",
       "Gulungan Teleport",
@@ -5131,7 +5131,7 @@
   {
     "id": 35,
     "name": "Caspa",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/35.png",
+    "image": "monster_icons/35.png",
     "formName": "",
     "level": 44,
     "regionNames": [
@@ -5141,7 +5141,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ruby Kualitas Tinggi",
       "Buku Sihir (Sun Burst)",
       "Tongkat Kayu Pinus",
@@ -5167,7 +5167,7 @@
   {
     "id": 36,
     "name": "Melchior",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/36.png",
+    "image": "monster_icons/36.png",
     "formName": "",
     "level": 45,
     "regionNames": [
@@ -5177,7 +5177,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Tongkat Kayu Pinus",
       "Safir Kualitas Terbaik",
       "Topi Melchior",
@@ -5201,7 +5201,7 @@
   {
     "id": 579,
     "name": "Death",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/579.png",
+    "image": "monster_icons/579.png",
     "formName": "Undead",
     "level": 45,
     "regionNames": [
@@ -5212,7 +5212,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Kristal Roh (Storm Shot)",
       "Halberd",
       "Ramuan Biru",
@@ -5232,7 +5232,7 @@
   {
     "id": 596,
     "name": "Asitazio",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/596.png",
+    "image": "monster_icons/596.png",
     "formName": "",
     "level": 45,
     "regionNames": [
@@ -5242,7 +5242,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Fireball)",
       "Ramuan Hijau",
       "Buku Sihir (Enchant Dexterity)",
@@ -5264,7 +5264,7 @@
   {
     "id": 588,
     "name": "Ifrit",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/588.png",
+    "image": "monster_icons/588.png",
     "formName": "",
     "level": 46,
     "regionNames": [
@@ -5274,7 +5274,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Fire Storm)",
       "Buku Sihir (Sun Burst)",
       "Buku Sihir (Fireball)",
@@ -5306,7 +5306,7 @@
   {
     "id": 589,
     "name": "Cerberus Roh",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/589.png",
+    "image": "monster_icons/589.png",
     "formName": "",
     "level": 47,
     "regionNames": [
@@ -5316,7 +5316,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Immune to Harm)",
       "Ramuan Hijau",
       "Buku Skill (Shock Stun)",
@@ -5335,7 +5335,7 @@
   {
     "id": 250,
     "name": "Drake",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/250.png",
+    "image": "monster_icons/250.png",
     "formName": "",
     "level": 48,
     "regionNames": [
@@ -5345,7 +5345,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Kristal Roh (Triple Arrow)",
       "Buku Sihir (Holy Walk)",
@@ -5380,7 +5380,7 @@
   {
     "id": 24,
     "name": "Baphomet",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/24.png",
+    "image": "monster_icons/24.png",
     "formName": "",
     "level": 50,
     "regionNames": [
@@ -5389,7 +5389,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Counter Magic)",
       "Buku Sihir (Taming Monster)",
       "Sabuk Jiwa Lusuh",
@@ -5439,7 +5439,7 @@
   {
     "id": 216,
     "name": "Veres",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/216.png",
+    "image": "monster_icons/216.png",
     "formName": "",
     "level": 50,
     "regionNames": [
@@ -5448,7 +5448,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Sun Burst)",
       "Sabuk Jiwa Lusuh",
       "Ramuan Hijau",
@@ -5488,7 +5488,7 @@
   {
     "id": 282,
     "name": "Sesepuh Hitam",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/282.png",
+    "image": "monster_icons/282.png",
     "formName": "",
     "level": 50,
     "regionNames": [
@@ -5498,7 +5498,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Taming Monster)",
       "Gulungan Sihir Senjata Terkutuk",
       "Buku Sihir (Call Lightning)",
@@ -5524,7 +5524,7 @@
   {
     "id": 885,
     "name": "Bos Doppelganger",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/885.png",
+    "image": "monster_icons/885.png",
     "formName": "",
     "level": 50,
     "regionNames": [
@@ -5534,7 +5534,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Ramuan Hijau",
       "Buku Sihir (Fireball)",
       "Zirah Pelat Perunggu",
@@ -5567,7 +5567,7 @@
   {
     "id": 10020,
     "name": "Spirit Murka",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/10020.png",
+    "image": "monster_icons/10020.png",
     "formName": "",
     "level": 50,
     "regionNames": [
@@ -5576,14 +5576,14 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Adena"
     ]
   },
   {
     "id": 16,
     "name": "Kurtz",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/16.png",
+    "image": "monster_icons/16.png",
     "formName": "",
     "level": 51,
     "regionNames": [
@@ -5592,7 +5592,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Helm Kurtz",
       "Zirah Pelat Perunggu",
       "Zirah Kurtz",
@@ -5626,7 +5626,7 @@
   {
     "id": 63,
     "name": "Death Knight",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/63.png",
+    "image": "monster_icons/63.png",
     "formName": "",
     "level": 52,
     "regionNames": [
@@ -5637,7 +5637,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Tornado)",
       "Buku Sihir (Sun Burst)",
       "Cincin Kendali Transformasi",
@@ -5683,7 +5683,7 @@
   {
     "id": 710,
     "name": "Ratu Es",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/710.png",
+    "image": "monster_icons/710.png",
     "formName": "",
     "level": 56,
     "regionNames": [
@@ -5692,7 +5692,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Fire Storm)",
       "Buku Sihir (Counter Magic)",
       "Sabuk Jiwa Lusuh",
@@ -5734,7 +5734,7 @@
   {
     "id": 454,
     "name": "Ratu Semut Raksasa",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/454.png",
+    "image": "monster_icons/454.png",
     "formName": "",
     "level": 57,
     "regionNames": [
@@ -5743,7 +5743,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Taming Monster)",
       "Ramuan Hijau",
       "Zirah Rantai (Chain Mail)",
@@ -5784,7 +5784,7 @@
   {
     "id": 590,
     "name": "Phoenix",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/590.png",
+    "image": "monster_icons/590.png",
     "formName": "",
     "level": 59,
     "regionNames": [
@@ -5794,7 +5794,7 @@
     "groups": [
       "Lapangan (Field)"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Fire Storm)",
       "Buku Sihir (Sun Burst)",
       "Cincin Kendali Transformasi",
@@ -5832,7 +5832,7 @@
   {
     "id": 332,
     "name": "Demon",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/332.png",
+    "image": "monster_icons/332.png",
     "formName": "",
     "level": 61,
     "regionNames": [
@@ -5841,7 +5841,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Buku Sihir (Fire Storm)",
       "Cincin Kendali Transformasi",
       "Sabuk Jiwa Lusuh",
@@ -5883,7 +5883,7 @@
   {
     "id": 327,
     "name": "Antharas",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/327.png",
+    "image": "monster_icons/327.png",
     "formName": "",
     "level": 93,
     "regionNames": [
@@ -5892,7 +5892,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Cincin Kendali Transformasi",
       "Jubah Tembus Pandang (Invisible) Diberkati",
       "Sabuk Jiwa Lusuh",
@@ -5948,7 +5948,7 @@
   {
     "id": 499,
     "name": "Papurion",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/499.png",
+    "image": "monster_icons/499.png",
     "formName": "",
     "level": 93,
     "regionNames": [
@@ -5957,7 +5957,7 @@
     "groups": [
       "Dungeon"
     ],
-    "rewordNames": [
+    "rewardNames": [
       "Cincin Kendali Transformasi",
       "Buku Sihir (Blizzard)",
       "Jubah Tembus Pandang (Invisible) Diberkati",
@@ -6011,12 +6011,12 @@
   {
     "id": 621,
     "name": "Valakas",
-    "image": "https://assets.playnccdn.com/static-lineageclassic-gamedata/resources/NPCIcon/621.png",
+    "image": "monster_icons/621.png",
     "formName": "",
     "level": 95,
     "regionNames": [],
     "groups": [],
-    "rewordNames": [
+    "rewardNames": [
       "Cincin Kendali Transformasi",
       "Jubah Tembus Pandang (Invisible) Diberkati",
       "Sabuk Jiwa Lusuh",
