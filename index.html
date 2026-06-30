@@ -237,6 +237,30 @@ header.top{
 }
 @media(min-width:640px){.sheet{border-radius:18px; max-height:80vh;}}
 @keyframes slideUp{from{transform:translateY(24px); opacity:0;} to{transform:translateY(0); opacity:1;}}
+
+/* ===== Lightbox ===== */
+.lightbox{
+  position:fixed; inset:0; background:rgba(0,0,0,0.88); backdrop-filter:blur(6px);
+  display:none; align-items:center; justify-content:center; z-index:100;
+  cursor:zoom-out;
+}
+.lightbox.show{display:flex; animation:lbFadeIn .18s ease-out;}
+@keyframes lbFadeIn{from{opacity:0;} to{opacity:1;}}
+.lightbox img{
+  max-width:90vw; max-height:90vh; object-fit:contain;
+  border-radius:8px; box-shadow:0 8px 40px rgba(0,0,0,0.7);
+  animation:lbScaleIn .18s ease-out;
+  image-rendering:pixelated;
+}
+@keyframes lbScaleIn{from{transform:scale(0.88); opacity:0;} to{transform:scale(1); opacity:1;}}
+.lightbox .lbClose{
+  position:absolute; top:16px; right:16px;
+  width:36px; height:36px; border-radius:9px; border:1px solid rgba(255,255,255,0.2);
+  background:rgba(0,0,0,0.5); color:#fff; font-size:18px; cursor:pointer;
+  display:flex; align-items:center; justify-content:center;
+}
+.sheetHead .icon{cursor:pointer; transition:opacity .15s;}
+.sheetHead .icon:hover{opacity:0.8;}
 .sheetHead{display:flex; gap:13px; align-items:flex-start; margin-bottom:16px;}
 .sheetHead .icon{width:56px; height:56px;}
 .sheetHeadText{flex:1; min-width:0;}
@@ -327,6 +351,11 @@ footer.credit{text-align:center; padding:18px 16px; color:var(--parch-faint); fo
 
 <footer class="credit">LC Monster DB · Data monster Lineage Classic</footer>
 
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Gambar monster besar">
+  <img id="lightboxImg" src="" alt="">
+  <button class="lbClose" id="lbClose" aria-label="Tutup">✕</button>
+</div>
+
 <div class="overlay" id="modal" aria-hidden="true">
   <div class="sheet" id="sheet">
     <div class="sheetHead">
@@ -386,6 +415,9 @@ const els = {
   grid: document.getElementById('grid'),
   empty: document.getElementById('empty'),
   modal: document.getElementById('modal'),
+  lightbox: document.getElementById('lightbox'),
+  lightboxImg: document.getElementById('lightboxImg'),
+  lbClose: document.getElementById('lbClose'),
   sheetIcon: document.getElementById('sheetIcon'),
   sheetTitle: document.getElementById('sheetTitle'),
   sheetTags: document.getElementById('sheetTags'),
@@ -576,6 +608,17 @@ function updateFavDetailBtn(){
   els.favDetail.classList.toggle('active', fav);
 }
 
+function openLightbox(src, alt){
+  if(!src) return;
+  els.lightboxImg.src = src;
+  els.lightboxImg.alt = alt || '';
+  els.lightbox.classList.add('show');
+}
+function closeLightbox(){
+  els.lightbox.classList.remove('show');
+  els.lightboxImg.src = '';
+}
+
 function openModal(id){
   const it = state.items.find(x=>x.id===id);
   if(!it) return;
@@ -584,8 +627,8 @@ function openModal(id){
   const isUndead = it.formName === 'Undead';
   els.sheetIcon.innerHTML = img ? `<img src="${esc(img)}" alt="${esc(it.name)}" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'fallbackIcon',textContent:'LC'}))">` : `<div class="fallbackIcon">LC</div>`;
   els.sheetIcon.classList.toggle('clickable', !!img);
-  els.sheetIcon.title = img ? 'Lihat gambar asli' : '';
-  els.sheetIcon.onclick = img ? ()=>window.open(img, '_blank', 'noopener') : null;
+  els.sheetIcon.title = img ? 'Lihat gambar besar' : '';
+  els.sheetIcon.onclick = img ? ()=>openLightbox(img, it.name) : null;
   els.sheetTitle.textContent = it.name;
   els.sheetTags.innerHTML = `<span class="catBadge" style="color:var(--rune); border-color:var(--rune-dim); background:rgba(124,158,255,0.1);">Lv ${it.level}</span>` + (isUndead?`<span class="catBadge" style="color:var(--ember); border-color:var(--ember-dim); background:rgba(232,101,79,0.12);">Undead</span>`:'');
   const regionCount = (it.regionNames||[]).length;
@@ -632,9 +675,11 @@ function initUI(){
   els.favBtn.onclick = ()=>{ state.onlyFav = !state.onlyFav; els.favBtn.classList.toggle('active', state.onlyFav); els.favBtn.textContent = state.onlyFav ? '★ Favorit' : '☆ Favorit'; render(); };
   els.closeModal.onclick = closeModal;
   els.modal.addEventListener('click', (e)=>{ if(e.target === els.modal) closeModal(); });
+  els.lbClose.onclick = closeLightbox;
+  els.lightbox.addEventListener('click', (e)=>{ if(e.target === els.lightbox || e.target === els.lightboxImg) closeLightbox(); });
   els.favDetail.onclick = ()=>{ if(!state.selected) return; toggleFav(state.selected.id); updateFavDetailBtn(); render(true); };
   els.copyDetail.onclick = ()=>{ if(!state.selected) return; copyText(formatMonster(state.selected)); toast('Tersalin'); };
-  document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') closeModal(); });
+  document.addEventListener('keydown', (e)=>{ if(e.key==='Escape'){ if(els.lightbox.classList.contains('show')) closeLightbox(); else closeModal(); } });
 }
 
 loadMonsters();
